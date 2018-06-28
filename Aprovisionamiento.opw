@@ -1,0 +1,79 @@
+[RESOURCES]
+Calidad
+Jefetura
+Almacen
+Comprador
+[VARIABLES]
+Reclaman faltante.NumberOut
+Reclama ofertas.NVATime
+Asigna comprador.WaitTime
+Trabajos proveedor.NumberIn
+Ofertan?.NumberOut False
+ICS.NumberIn
+Ha entregado?.NumberOut False
+Reclama entrega.NVATime
+Proveedor ofertando.NumberOut
+Proveedor Termina Oferta.NumberIn
+Seleccion y pedido.NumberOut
+LSC mecanosoldado.NumberOut
+LSC LLI.NumberOut
+ICS.WaitTime
+Completan.NumberOut
+Util?.NumberOut False
+Util?.NumberOut True
+Firma pedido.NumberIn
+Almacena.NumberIn
+Proveedor Termina Oferta.WaitTime
+Seleccion y pedido.NumberIn
+Completo?.NumberOut False
+LSC contratos.NumberOut
+Utilidad.NumberOut
+Reclama entrega.NumberOut
+ICS.NVATime
+Reclaman faltante.NumberIn
+Utilidad.NumberIn
+Firma pedido.WaitTime
+Utilidad.VATime
+Seleccion y pedido.WaitTime
+Seleccion y pedido.VATime
+Reclama entrega.NumberIn
+ICS.NumberOut
+Trabajos proveedor.OtherTime
+Completan.NumberIn
+Reclaman faltante.WaitTime
+Utilidad.WaitTime
+Almacena.WaitTime
+Termina Entregar.NumberOut
+Almacena.VATime
+Ofertan?.NumberOut True
+PIDE OFERTAS.VATime
+Reclama entrega.WaitTime
+Asigna comprador.NumberOut
+Proveedor ofertando.OtherTime
+Completan.WaitTime
+Termina Entregar.NumberIn
+Firma pedido.NVATime
+Recepcion.NumberIn
+Completo?.NumberOut True
+Almacena.NumberOut
+LSC normalizados.NumberOut
+Firma pedido.NumberOut
+Reclama ofertas.NumberOut
+PIDE OFERTAS.NumberIn
+Termina Entregar.WaitTime
+Completado.NumberOut
+Asigna comprador.NVATime
+Proveedor ofertando.NumberIn
+Reclama ofertas.NumberIn
+PIDE OFERTAS.WaitTime
+Recepcion.WaitTime
+Asigna comprador.NumberIn
+Recepcion.NumberOut
+Recepcion.VATime
+PIDE OFERTAS.NumberOut
+Proveedor Termina Oferta.NumberOut
+Reclama ofertas.WaitTime
+Reclaman faltante.NVATime
+LSC comercial.NumberOut
+Ha entregado?.NumberOut True
+Trabajos proveedor.NumberOut

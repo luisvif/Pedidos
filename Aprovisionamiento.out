@@ -1,0 +1,2037 @@
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 1 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .12302     (Insuf)    .07193     .32789         38    
+Seleccion y pedido.TotalTimePerEntity       .11813     .01291     .05351     .79521        420    
+Trabajos proveedor.OtherTimePerEntity       3.1180     .15512     1.0554     5.5321        454    
+Almacena.VATimePerEntity                    .06212     .00114     .03262     .09156        415    
+PIDE OFERTAS.WaitTimePerEntity              .12087     (Corr)     .00000     1.0149        438    
+Seleccion y pedido.WaitTimePerEntity        .02786     .01251     .00000     .70243        420    
+Proveedor ofertando.TotalTimePerEntity      14.116     1.2779     1.8012     58.741        420    
+Utilidad.VATimePerEntity                    .13736     .00166     .10236     .18550        451    
+Reclama ofertas.NVATimePerEntity            .11477     (Insuf)    .06932     .15510         11    
+Utilidad.TotalTimePerEntity                 .15290     .00791     .10236     .46221        451    
+Reclama entrega.NVATimePerEntity            .12187     (Insuf)    .06745     .17678         82    
+Almacena.WaitTimePerEntity                  .02746     (Corr)     .00000     .32028        415    
+Tiempo Proceso                              19.803     (Corr)     1.5002     75.068        415    
+Almacena.TotalTimePerEntity                 .08958     (Corr)     .03386     .38109        415    
+Asigna comprador.NVATimePerEntity           .00996     2.7293E-04 .00166     .01806        438    
+Proveedor ofertando.OtherTimePerEntity      14.116     1.2779     1.8012     58.741        420    
+Termina Entregar.WaitTimePerEntity          11.858     (Insuf)    5.9470     18.602         81    
+ICS.NVATimePerEntity                        .12746     (Insuf)    .07330     .17707         36    
+Asigna comprador.TotalTimePerEntity         .02341     .00238     .00172     .09492        438    
+Reclama entrega.WaitTimePerEntity           .02846     (Insuf)    .00000     .57863         82    
+Reclama entrega.TotalTimePerEntity          .15033     (Insuf)    .06745     .71905         82    
+Termina Entregar.TotalTimePerEntity         11.858     (Insuf)    5.9470     18.602         81    
+Recepcion.WaitTimePerEntity                 .02518     (Corr)     .00000     .26274        453    
+Recepcion.VATimePerEntity                   .11422     .00262     .06531     .18204        453    
+Firma pedido.NVATimePerEntity               .04860     8.5682E-04 .03248     .07197        420    
+Reclaman faltante.NVATimePerEntity          .11122     (Insuf)    .07193     .16652         38    
+Proveedor Termina Oferta.TotalTimePerEntit  1.1375     (Insuf)    .92746     1.4282         11    
+Reclama ofertas.WaitTimePerEntity           .04223     (Insuf)    .00000     .38750         11    
+Trabajos proveedor.TotalTimePerEntity       3.1180     .15512     1.0554     5.5321        454    
+Seleccion y pedido.VATimePerEntity          .09027     .00166     .05351     .12410        420    
+ICS.WaitTimePerEntity                       .00586     (Insuf)    .00000     .15042         36    
+Recepcion.TotalTimePerEntity                .13939     (Corr)     .06531     .39080        453    
+Utilidad.WaitTimePerEntity                  .01555     .00719     .00000     .30406        451    
+Reclaman faltante.WaitTimePerEntity         .01180     (Insuf)    .00000     .21800         38    
+Reclama ofertas.TotalTimePerEntity          .15699     (Insuf)    .06932     .47242         11    
+ICS.TotalTimePerEntity                      .13332     (Insuf)    .07330     .32496         36    
+PIDE OFERTAS.TotalTimePerEntity             .34793     .02902     .13396     1.2056        438    
+Asigna comprador.WaitTimePerEntity          .01345     .00229     .00000     .07973        438    
+Proveedor Termina Oferta.WaitTimePerEntity  1.1375     (Insuf)    .92746     1.4282         11    
+Firma pedido.WaitTimePerEntity              .00151     7.3592E-04 .00000     .06923        420    
+Firma pedido.TotalTimePerEntity             .05011     .00116     .03248     .12548        420    
+Completan.TotalTimePerEntity                8.3374     (Insuf)    2.9736     18.328         37    
+PIDE OFERTAS.VATimePerEntity                .22706     .00302     .13264     .30756        438    
+Completan.WaitTimePerEntity                 8.3374     (Insuf)    2.9736     18.328         37    
+Linea SC.VATime                             .65272     .01172     .47825     1.3103        415    
+Linea SC.NVATime                            .10643     .01019     .03579     .65527        415    
+Linea SC.WaitTime                           3.3354     .74929     .00000     36.885        415    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        415    
+Linea SC.OtherTime                          17.464     1.1362     5.4915     62.673        415    
+Linea SC.TotalTime                          21.559     1.3724     6.2765     75.068        415    
+ICS.Queue.WaitingTime                       .00586     (Insuf)    .00000     .15042         36    
+Reclama entrega.Queue.WaitingTime           .02846     (Insuf)    .00000     .57863         82    
+Reclama ofertas.Queue.WaitingTime           .04223     (Insuf)    .00000     .38750         11    
+Firma pedido.Queue.WaitingTime              .00151     7.3592E-04 .00000     .06923        420    
+Recepcion.Queue.WaitingTime                 .02518     (Corr)     .00000     .26274        453    
+Asigna comprador.Queue.WaitingTime          .01345     .00229     .00000     .07973        438    
+PIDE OFERTAS.Queue.WaitingTime              .12087     (Corr)     .00000     1.0149        438    
+Almacena.Queue.WaitingTime                  .02746     (Corr)     .00000     .32028        415    
+Utilidad.Queue.WaitingTime                  .01551     .00719     .00000     .30406        452    
+Seleccion y pedido.Queue.WaitingTime        .02786     .01251     .00000     .70243        420    
+Reclaman faltante.Queue.WaitingTime         .01180     (Insuf)    .00000     .21800         38    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                25.293     (Corr)     .00000     56.000     23.000    
+Calidad.NumberBusy                          .16976     (Corr)     .00000     1.0000     1.0000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .16976     (Corr)     .00000     1.0000     1.0000    
+Jefetura.NumberBusy                         .06788     (Corr)     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .06788     (Corr)     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .21238     (Corr)     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .21238     (Corr)     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .43133     (Corr)     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .21567     (Corr)     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     5.7795E-04 (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00639     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         .00127     (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00174     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .03125     (Insuf)    .00000     3.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01614     .00599     .00000     8.0000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .14504     .05959     .00000     9.0000     .00000    
+Almacena.Queue.NumberInQueue                .03123     (Insuf)    .00000     3.0000     .00000    
+Utilidad.Queue.NumberInQueue                .01921     (Insuf)    .00000     3.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .03206     (Insuf)    .00000     3.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       .00123     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     38  Infinite
+Reclamaciones                                    82  Infinite
+REACS                                            36  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                38.000    
+Reclama ofertas Accum NVA Time              1.2624    
+Asigna comprador Accum Wait Time            5.8894    
+Trabajos proveedor Number In                456.00    
+ICS Number In                               36.000    
+Reclama entrega Accum NVA Time              9.9931    
+Proveedor Termina Oferta Number In          11.000    
+Proveedor ofertando Number Out              420.00    
+Seleccion y pedido Number Out               420.00    
+ICS Accum Wait Time                         .21095    
+Completan Number Out                        37.000    
+Firma pedido Number In                      420.00    
+Almacena Number In                          415.00    
+Proveedor Termina Oferta Accum Wait Time    12.512    
+Seleccion y pedido Number In                420.00    
+Utilidad Number Out                         451.00    
+ICS Accum NVA Time                          4.5886    
+Reclama entrega Number Out                  82.000    
+Reclaman faltante Number In                 38.000    
+Utilidad Number In                          452.00    
+Firma pedido Accum Wait Time                .63356    
+Utilidad Accum VA Time                      61.948    
+Seleccion y pedido Accum Wait Time          11.700    
+Seleccion y pedido Accum VA Time            37.913    
+Reclama entrega Number In                   82.000    
+ICS Number Out                              36.000    
+Trabajos proveedor Accum Other Time         1415.5    
+Completan Number In                         38.000    
+Reclaman faltante Accum Wait Time           .44848    
+Utilidad Accum Wait Time                    7.0113    
+Almacena Accum Wait Time                    11.397    
+Termina Entregar Number Out                 81.000    
+Almacena Accum VA Time                      25.778    
+PIDE OFERTAS Accum VA Time                  99.452    
+Reclama entrega Accum Wait Time             2.3336    
+Asigna comprador Number Out                 438.00    
+Proveedor ofertando Accum Other Time        5928.7    
+Completan Accum Wait Time                   308.48    
+Termina Entregar Number In                  82.000    
+Firma pedido Accum NVA Time                 20.412    
+Recepcion Number In                         453.00    
+Almacena Number Out                         415.00    
+Firma pedido Number Out                     420.00    
+Reclama ofertas Number Out                  11.000    
+PIDE OFERTAS Number In                      438.00    
+Termina Entregar Accum Wait Time            960.50    
+Asigna comprador Accum NVA Time             4.3623    
+Proveedor ofertando Number In               438.00    
+Reclama ofertas Number In                   11.000    
+PIDE OFERTAS Accum Wait Time                52.940    
+Recepcion Accum Wait Time                   11.405    
+Asigna comprador Number In                  438.00    
+Recepcion Number Out                        453.00    
+Recepcion Accum VA Time                     51.739    
+PIDE OFERTAS Number Out                     438.00    
+Proveedor Termina Oferta Number Out         11.000    
+Reclaman faltante Accum NVA Time            4.2262    
+Reclama ofertas Accum Wait Time             .46448    
+Trabajos proveedor Number Out               454.00    
+Linea SC.NumberIn                           438.00    
+Linea SC.NumberOut                          415.00    
+Calidad.NumberSeized                        452.00    
+Calidad.ScheduledUtilization                .16976    
+Jefetura.NumberSeized                       858.00    
+Jefetura.ScheduledUtilization               .06788    
+Almacen.NumberSeized                        868.00    
+Almacen.ScheduledUtilization                .21238    
+Comprador.NumberSeized                      1025.0    
+Comprador.ScheduledUtilization              .21567    
+System.NumberOut                            415.00    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 2 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .14149     (Insuf)    .07320     .53828         34    
+Seleccion y pedido.TotalTimePerEntity       .11668     .02031     .05337     .98585        391    
+Trabajos proveedor.OtherTimePerEntity       2.9722     .14144     1.1353     5.4894        423    
+Almacena.VATimePerEntity                    .06243     .00173     .03228     .09145        385    
+PIDE OFERTAS.WaitTimePerEntity              .12453     .03561     .00000     1.1020        411    
+Seleccion y pedido.WaitTimePerEntity        .02619     .02045     .00000     .89690        391    
+Proveedor ofertando.TotalTimePerEntity      15.416     1.2402     1.5143     56.863        391    
+Utilidad.VATimePerEntity                    .13674     .00174     .10312     .18483        419    
+Reclama ofertas.NVATimePerEntity            .13125     (Insuf)    .08156     .17781         16    
+Utilidad.TotalTimePerEntity                 .14688     .00357     .10390     .32037        419    
+Reclama entrega.NVATimePerEntity            .12784     (Insuf)    .06482     .18169         80    
+Almacena.WaitTimePerEntity                  .01435     .00541     .00000     .20200        385    
+Tiempo Proceso                              20.812     1.5187     1.5628     62.796        385    
+Almacena.TotalTimePerEntity                 .07678     .00467     .03228     .28694        385    
+Asigna comprador.NVATimePerEntity           .01022     4.2260E-04 .00142     .01805        411    
+Proveedor ofertando.OtherTimePerEntity      15.416     1.2402     1.5143     56.863        391    
+Termina Entregar.WaitTimePerEntity          12.128     (Insuf)    5.9844     18.509         76    
+ICS.NVATimePerEntity                        .11605     (Insuf)    .06994     .15244         34    
+Asigna comprador.TotalTimePerEntity         .02307     .00286     .00240     .10613        411    
+Reclama entrega.WaitTimePerEntity           .02258     (Insuf)    .00000     .48273         80    
+Reclama entrega.TotalTimePerEntity          .15043     (Insuf)    .06482     .59264         80    
+Termina Entregar.TotalTimePerEntity         12.128     (Insuf)    5.9844     18.509         76    
+Recepcion.WaitTimePerEntity                 .01460     .00413     .00000     .19874        419    
+Recepcion.VATimePerEntity                   .11427     .00288     .06522     .18650        419    
+Firma pedido.NVATimePerEntity               .04806     7.9293E-04 .03176     .07215        391    
+Reclaman faltante.NVATimePerEntity          .11094     (Insuf)    .07320     .18131         34    
+Proveedor Termina Oferta.TotalTimePerEntit  1.0338     (Insuf)    .30466     1.7077         16    
+Reclama ofertas.WaitTimePerEntity           .00782     (Insuf)    .00000     .12515         16    
+Trabajos proveedor.TotalTimePerEntity       2.9722     .14144     1.1353     5.4894        423    
+Seleccion y pedido.VATimePerEntity          .09049     .00129     .05318     .12416        391    
+ICS.WaitTimePerEntity                       .01705     (Insuf)    .00000     .57970         34    
+Recepcion.TotalTimePerEntity                .12887     .00489     .06522     .34169        419    
+Utilidad.WaitTimePerEntity                  .01015     .00264     .00000     .17693        419    
+Reclaman faltante.WaitTimePerEntity         .03055     (Insuf)    .00000     .41585         34    
+Reclama ofertas.TotalTimePerEntity          .13907     (Insuf)    .08156     .25135         16    
+ICS.TotalTimePerEntity                      .13310     (Insuf)    .06994     .72690         34    
+PIDE OFERTAS.TotalTimePerEntity             .35529     .03735     .12838     1.3137        411    
+Asigna comprador.WaitTimePerEntity          .01284     .00276     .00000     .09387        411    
+Proveedor Termina Oferta.WaitTimePerEntity  1.0338     (Insuf)    .30466     1.7077         16    
+Firma pedido.WaitTimePerEntity              9.3065E-04 6.1786E-04 .00000     .05397        391    
+Firma pedido.TotalTimePerEntity             .04899     .00121     .03176     .09513        391    
+Completan.TotalTimePerEntity                7.2186     (Insuf)    1.9249     14.302         34    
+PIDE OFERTAS.VATimePerEntity                .23076     .00370     .12838     .31033        411    
+Completan.WaitTimePerEntity                 7.2186     (Insuf)    1.9249     14.302         34    
+Linea SC.VATime                             .65682     .00946     .47493     1.1642        385    
+Linea SC.NVATime                            .10866     .01078     .03702     .52165        385    
+Linea SC.WaitTime                           3.2514     .78359     .00000     37.385        385    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        385    
+Linea SC.OtherTime                          18.608     1.4100     5.7364     54.738        385    
+Linea SC.TotalTime                          22.625     1.6250     6.8253     62.902        385    
+ICS.Queue.WaitingTime                       .01705     (Insuf)    .00000     .57970         34    
+Reclama entrega.Queue.WaitingTime           .02258     (Insuf)    .00000     .48273         80    
+Reclama ofertas.Queue.WaitingTime           .00782     (Insuf)    .00000     .12515         16    
+Firma pedido.Queue.WaitingTime              9.3065E-04 6.1786E-04 .00000     .05397        391    
+Recepcion.Queue.WaitingTime                 .01460     .00413     .00000     .19874        419    
+Asigna comprador.Queue.WaitingTime          .01284     .00276     .00000     .09387        411    
+PIDE OFERTAS.Queue.WaitingTime              .12453     .03563     .00000     1.1020        411    
+Almacena.Queue.WaitingTime                  .01435     .00541     .00000     .20200        385    
+Utilidad.Queue.WaitingTime                  .01015     .00264     .00000     .17693        419    
+Seleccion y pedido.Queue.WaitingTime        .02619     .02045     .00000     .89690        391    
+Reclaman faltante.Queue.WaitingTime         .03055     (Insuf)    .00000     .41585         34    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                24.850     (Corr)     .00000     41.000     26.000    
+Calidad.NumberBusy                          .15697     .01993     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .15697     .01993     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .06299     .00824     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .06299     .00824     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .19702     .02390     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .19702     .02390     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .41170     .04141     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .20585     .02070     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     .00159     (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00495     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         3.4288E-04 (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            9.9694E-04 (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .01676     (Insuf)    .00000     3.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01446     .00382     .00000     10.000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .14022     .05632     .00000     9.0000     .00000    
+Almacena.Queue.NumberInQueue                .01514     (Insuf)    .00000     2.0000     .00000    
+Utilidad.Queue.NumberInQueue                .01165     (Insuf)    .00000     2.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .02806     (Insuf)    .00000     4.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       .00285     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     34  Infinite
+Reclamaciones                                    80  Infinite
+REACS                                            34  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                34.000    
+Reclama ofertas Accum NVA Time              2.0999    
+Asigna comprador Accum Wait Time            5.2784    
+Trabajos proveedor Number In                425.00    
+ICS Number In                               34.000    
+Reclama entrega Accum NVA Time              10.227    
+Proveedor Termina Oferta Number In          16.000    
+Proveedor ofertando Number Out              391.00    
+Seleccion y pedido Number Out               391.00    
+ICS Accum Wait Time                         .57970    
+Completan Number Out                        34.000    
+Firma pedido Number In                      391.00    
+Almacena Number In                          385.00    
+Proveedor Termina Oferta Accum Wait Time    16.541    
+Seleccion y pedido Number In                391.00    
+Utilidad Number Out                         419.00    
+ICS Accum NVA Time                          3.9457    
+Reclama entrega Number Out                  80.000    
+Reclaman faltante Number In                 34.000    
+Utilidad Number In                          419.00    
+Firma pedido Accum Wait Time                .36388    
+Utilidad Accum VA Time                      57.292    
+Seleccion y pedido Accum Wait Time          10.241    
+Seleccion y pedido Accum VA Time            35.379    
+Reclama entrega Number In                   80.000    
+ICS Number Out                              34.000    
+Trabajos proveedor Accum Other Time         1257.2    
+Completan Number In                         34.000    
+Reclaman faltante Accum Wait Time           1.0386    
+Utilidad Accum Wait Time                    4.2508    
+Almacena Accum Wait Time                    5.5256    
+Termina Entregar Number Out                 76.000    
+Almacena Accum VA Time                      24.036    
+PIDE OFERTAS Accum VA Time                  94.843    
+Reclama entrega Accum Wait Time             1.8067    
+Asigna comprador Number Out                 411.00    
+Proveedor ofertando Accum Other Time        6027.7    
+Completan Accum Wait Time                   245.43    
+Termina Entregar Number In                  80.000    
+Firma pedido Accum NVA Time                 18.790    
+Recepcion Number In                         419.00    
+Almacena Number Out                         385.00    
+Firma pedido Number Out                     391.00    
+Reclama ofertas Number Out                  16.000    
+PIDE OFERTAS Number In                      411.00    
+Termina Entregar Accum Wait Time            921.78    
+Asigna comprador Accum NVA Time             4.2014    
+Proveedor ofertando Number In               411.00    
+Reclama ofertas Number In                   16.000    
+PIDE OFERTAS Accum Wait Time                51.180    
+Recepcion Accum Wait Time                   6.1169    
+Asigna comprador Number In                  411.00    
+Recepcion Number Out                        419.00    
+Recepcion Accum VA Time                     47.877    
+PIDE OFERTAS Number Out                     411.00    
+Proveedor Termina Oferta Number Out         16.000    
+Reclaman faltante Accum NVA Time            3.7720    
+Reclama ofertas Accum Wait Time             .12515    
+Trabajos proveedor Number Out               423.00    
+Linea SC.NumberIn                           411.00    
+Linea SC.NumberOut                          385.00    
+Calidad.NumberSeized                        419.00    
+Calidad.ScheduledUtilization                .15697    
+Jefetura.NumberSeized                       802.00    
+Jefetura.ScheduledUtilization               .06299    
+Almacen.NumberSeized                        804.00    
+Almacen.ScheduledUtilization                .19702    
+Comprador.NumberSeized                      966.00    
+Comprador.ScheduledUtilization              .20585    
+System.NumberOut                            385.00    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 3 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .13176     (Insuf)    .07966     .48397         20    
+Seleccion y pedido.TotalTimePerEntity       .10875     .01006     .05550     .86211        359    
+Trabajos proveedor.OtherTimePerEntity       2.9306     .14443     1.0483     5.4501        388    
+Almacena.VATimePerEntity                    .06231     .00141     .03365     .09259        354    
+PIDE OFERTAS.WaitTimePerEntity              .10449     .03753     .00000     1.0277        378    
+Seleccion y pedido.WaitTimePerEntity        .01881     .00987     .00000     .77334        359    
+Proveedor ofertando.TotalTimePerEntity      16.639     1.6358     1.3751     53.293        361    
+Utilidad.VATimePerEntity                    .13673     .00218     .10183     .18264        388    
+Reclama ofertas.NVATimePerEntity            .13117     (Insuf)    .09902     .17343         19    
+Utilidad.TotalTimePerEntity                 .14383     .00366     .10183     .32634        388    
+Reclama entrega.NVATimePerEntity            .12112     (Insuf)    .06667     .17623         60    
+Almacena.WaitTimePerEntity                  .01360     .00648     .00000     .26903        354    
+Tiempo Proceso                              21.105     1.8242     1.5713     71.035        354    
+Almacena.TotalTimePerEntity                 .07591     .00692     .03365     .31899        354    
+Asigna comprador.NVATimePerEntity           .01035     4.1435E-04 .00139     .01844        379    
+Proveedor ofertando.OtherTimePerEntity      16.639     1.6358     1.3751     53.293        361    
+Termina Entregar.WaitTimePerEntity          11.471     (Insuf)    6.3020     19.308         60    
+ICS.NVATimePerEntity                        .12633     (Insuf)    .07269     .17625         34    
+Asigna comprador.TotalTimePerEntity         .02256     .00334     .00139     .10487        379    
+Reclama entrega.WaitTimePerEntity           .01559     (Insuf)    .00000     .23359         60    
+Reclama entrega.TotalTimePerEntity          .13671     (Insuf)    .06667     .34933         60    
+Termina Entregar.TotalTimePerEntity         11.471     (Insuf)    6.3020     19.308         60    
+Recepcion.WaitTimePerEntity                 .01470     .00642     .00000     .24733        388    
+Recepcion.VATimePerEntity                   .11233     .00271     .06649     .17896        388    
+Firma pedido.NVATimePerEntity               .04895     8.6625E-04 .03140     .06993        359    
+Reclaman faltante.NVATimePerEntity          .10898     (Insuf)    .07319     .17322         20    
+Proveedor Termina Oferta.TotalTimePerEntit  1.2207     (Insuf)    .39942     1.6539         19    
+Reclama ofertas.WaitTimePerEntity           .00457     (Insuf)    .00000     .08687         19    
+Trabajos proveedor.TotalTimePerEntity       2.9306     .14443     1.0483     5.4501        388    
+Seleccion y pedido.VATimePerEntity          .08994     .00178     .05522     .12283        359    
+ICS.WaitTimePerEntity                       .01582     (Insuf)    .00000     .29076         34    
+Recepcion.TotalTimePerEntity                .12703     .00703     .06649     .35177        388    
+Utilidad.WaitTimePerEntity                  .00710     .00278     .00000     .15528        388    
+Reclaman faltante.WaitTimePerEntity         .02278     (Insuf)    .00000     .40434         20    
+Reclama ofertas.TotalTimePerEntity          .13574     (Insuf)    .09902     .21831         19    
+ICS.TotalTimePerEntity                      .14215     (Insuf)    .07269     .38949         34    
+PIDE OFERTAS.TotalTimePerEntity             .33499     .03704     .13810     1.2885        378    
+Asigna comprador.WaitTimePerEntity          .01221     .00327     .00000     .09232        379    
+Proveedor Termina Oferta.WaitTimePerEntity  1.2207     (Insuf)    .39942     1.6539         19    
+Firma pedido.WaitTimePerEntity              .00116     5.9454E-04 .00000     .04512        359    
+Firma pedido.TotalTimePerEntity             .05011     9.3031E-04 .03140     .09179        359    
+Completan.TotalTimePerEntity                9.2309     (Insuf)    3.5764     17.239         20    
+PIDE OFERTAS.VATimePerEntity                .23051     .00311     .13518     .30466        378    
+Completan.WaitTimePerEntity                 9.2309     (Insuf)    3.5764     17.239         20    
+Linea SC.VATime                             .65573     .00935     .48044     1.0390        354    
+Linea SC.NVATime                            .10448     .01114     .03982     .47027        354    
+Linea SC.WaitTime                           2.6884     .65909     .00000     34.437        354    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        354    
+Linea SC.OtherTime                          19.858     1.4602     5.3903     58.216        354    
+Linea SC.TotalTime                          23.307     1.6067     6.3836     71.035        354    
+ICS.Queue.WaitingTime                       .01582     (Insuf)    .00000     .29076         34    
+Reclama entrega.Queue.WaitingTime           .01559     (Insuf)    .00000     .23359         60    
+Reclama ofertas.Queue.WaitingTime           .01379     (Insuf)    .00000     .18889         20    
+Firma pedido.Queue.WaitingTime              .00116     5.9454E-04 .00000     .04512        359    
+Recepcion.Queue.WaitingTime                 .01470     .00642     .00000     .24733        388    
+Asigna comprador.Queue.WaitingTime          .01221     .00327     .00000     .09232        379    
+PIDE OFERTAS.Queue.WaitingTime              .10439     .03753     .00000     1.0277        379    
+Almacena.Queue.WaitingTime                  .01360     .00648     .00000     .26903        354    
+Utilidad.Queue.WaitingTime                  .00710     .00278     .00000     .15528        388    
+Seleccion y pedido.Queue.WaitingTime        .01881     .00987     .00000     .77334        359    
+Reclaman faltante.Queue.WaitingTime         .02278     (Insuf)    .00000     .40434         20    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                23.811     (Corr)     .00000     46.000     25.000    
+Calidad.NumberBusy                          .14535     .02512     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .14535     .02512     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .05889     .00820     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .05889     .00820     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .17984     .03082     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .17984     .03082     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .37258     .05608     .00000     2.0000     2.0000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .18629     .02804     .00000     1.0000     1.0000    
+ICS.Queue.NumberInQueue                     .00147     (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00256     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         7.5551E-04 (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00114     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .01562     (Insuf)    .00000     2.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01268     (Insuf)    .00000     9.0000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .10839     (Insuf)    .00000     10.000     .00000    
+Almacena.Queue.NumberInQueue                .01319     (Insuf)    .00000     2.0000     .00000    
+Utilidad.Queue.NumberInQueue                .00754     (Insuf)    .00000     1.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .01870     (Insuf)    .00000     3.0000     1.0000    
+Reclaman faltante.Queue.NumberInQueue       .00125     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     20  Infinite
+Reclamaciones                                    60  Infinite
+REACS                                            34  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                20.000    
+Reclama ofertas Accum NVA Time              2.4921    
+Asigna comprador Accum Wait Time            4.6273    
+Trabajos proveedor Number In                393.00    
+ICS Number In                               34.000    
+Reclama entrega Accum NVA Time              7.2670    
+Proveedor Termina Oferta Number In          19.000    
+Proveedor ofertando Number Out              361.00    
+Seleccion y pedido Number Out               359.00    
+ICS Accum Wait Time                         .53776    
+Completan Number Out                        20.000    
+Firma pedido Number In                      359.00    
+Almacena Number In                          354.00    
+Proveedor Termina Oferta Accum Wait Time    23.194    
+Seleccion y pedido Number In                360.00    
+Utilidad Number Out                         388.00    
+ICS Accum NVA Time                          4.2952    
+Reclama entrega Number Out                  60.000    
+Reclaman faltante Number In                 20.000    
+Utilidad Number In                          388.00    
+Firma pedido Accum Wait Time                .41577    
+Utilidad Accum VA Time                      53.052    
+Seleccion y pedido Accum Wait Time          6.7531    
+Seleccion y pedido Accum VA Time            32.289    
+Reclama entrega Number In                   60.000    
+ICS Number Out                              34.000    
+Trabajos proveedor Accum Other Time         1137.0    
+Completan Number In                         20.000    
+Reclaman faltante Accum Wait Time           .45564    
+Utilidad Accum Wait Time                    2.7535    
+Almacena Accum Wait Time                    4.8160    
+Termina Entregar Number Out                 60.000    
+Almacena Accum VA Time                      22.057    
+PIDE OFERTAS Accum VA Time                  87.131    
+Reclama entrega Accum Wait Time             .93558    
+Asigna comprador Number Out                 379.00    
+Proveedor ofertando Accum Other Time        6006.8    
+Completan Accum Wait Time                   184.61    
+Termina Entregar Number In                  60.000    
+Firma pedido Accum NVA Time                 17.572    
+Recepcion Number In                         388.00    
+Almacena Number Out                         354.00    
+Firma pedido Number Out                     359.00    
+Reclama ofertas Number Out                  19.000    
+PIDE OFERTAS Number In                      379.00    
+Termina Entregar Accum Wait Time            688.27    
+Asigna comprador Accum NVA Time             3.9225    
+Proveedor ofertando Number In               378.00    
+Reclama ofertas Number In                   20.000    
+PIDE OFERTAS Accum Wait Time                39.495    
+Recepcion Accum Wait Time                   5.7029    
+Asigna comprador Number In                  379.00    
+Recepcion Number Out                        388.00    
+Recepcion Accum VA Time                     43.585    
+PIDE OFERTAS Number Out                     378.00    
+Proveedor Termina Oferta Number Out         19.000    
+Reclaman faltante Accum NVA Time            2.1795    
+Reclama ofertas Accum Wait Time             .08687    
+Trabajos proveedor Number Out               388.00    
+Linea SC.NumberIn                           379.00    
+Linea SC.NumberOut                          354.00    
+Calidad.NumberSeized                        388.00    
+Calidad.ScheduledUtilization                .14535    
+Jefetura.NumberSeized                       738.00    
+Jefetura.ScheduledUtilization               .05889    
+Almacen.NumberSeized                        742.00    
+Almacen.ScheduledUtilization                .17984    
+Comprador.NumberSeized                      872.00    
+Comprador.ScheduledUtilization              .18629    
+System.NumberOut                            354.00    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 4 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .15486     (Insuf)    .06787     .56255         21    
+Seleccion y pedido.TotalTimePerEntity       .10906     .01039     .05327     .71694        372    
+Trabajos proveedor.OtherTimePerEntity       2.9874     .17871     1.0306     5.4827        399    
+Almacena.VATimePerEntity                    .06314     .00140     .03286     .09175        364    
+PIDE OFERTAS.WaitTimePerEntity              .11625     .04135     .00000     1.0448        395    
+Seleccion y pedido.WaitTimePerEntity        .01826     .01010     .00000     .63743        372    
+Proveedor ofertando.TotalTimePerEntity      16.819     1.5592     1.7013     56.196        372    
+Utilidad.VATimePerEntity                    .13722     .00236     .10080     .18644        396    
+Reclama ofertas.NVATimePerEntity            .12372     (Insuf)    .07103     .16092         19    
+Utilidad.TotalTimePerEntity                 .14444     .00338     .10080     .29568        396    
+Reclama entrega.NVATimePerEntity            .13050     (Insuf)    .08086     .18693         52    
+Almacena.WaitTimePerEntity                  .01344     .00638     .00000     .29203        364    
+Tiempo Proceso                              21.420     1.7963     1.6175     67.580        364    
+Almacena.TotalTimePerEntity                 .07658     .00631     .03286     .36313        364    
+Asigna comprador.NVATimePerEntity           .00960     2.8569E-04 .00164     .01857        395    
+Proveedor ofertando.OtherTimePerEntity      16.819     1.5592     1.7013     56.196        372    
+Termina Entregar.WaitTimePerEntity          10.835     (Insuf)    5.5836     17.193         50    
+ICS.NVATimePerEntity                        .12387     (Insuf)    .07920     .16960         32    
+Asigna comprador.TotalTimePerEntity         .02104     .00286     .00164     .10306        395    
+Reclama entrega.WaitTimePerEntity           .00242     (Insuf)    .00000     .10334         52    
+Reclama entrega.TotalTimePerEntity          .13292     (Insuf)    .08086     .20776         52    
+Termina Entregar.TotalTimePerEntity         10.835     (Insuf)    5.5836     17.193         50    
+Recepcion.WaitTimePerEntity                 .01223     .00297     .00000     .20296        397    
+Recepcion.VATimePerEntity                   .11114     .00234     .06350     .18118        397    
+Firma pedido.NVATimePerEntity               .04793     .00107     .03162     .07178        372    
+Reclaman faltante.NVATimePerEntity          .11030     (Insuf)    .06787     .16702         21    
+Proveedor Termina Oferta.TotalTimePerEntit  1.0985     (Insuf)    .55740     1.7928         19    
+Reclama ofertas.WaitTimePerEntity           .02379     (Insuf)    .00000     .45193         19    
+Trabajos proveedor.TotalTimePerEntity       2.9874     .17871     1.0306     5.4827        399    
+Seleccion y pedido.VATimePerEntity          .09081     .00173     .05327     .12412        372    
+ICS.WaitTimePerEntity                       .03198     (Insuf)    .00000     .88290         32    
+Recepcion.TotalTimePerEntity                .12336     .00400     .06350     .32099        397    
+Utilidad.WaitTimePerEntity                  .00721     .00241     .00000     .15705        396    
+Reclaman faltante.WaitTimePerEntity         .04456     (Insuf)    .00000     .46438         21    
+Reclama ofertas.TotalTimePerEntity          .14750     (Insuf)    .07103     .57244         19    
+ICS.TotalTimePerEntity                      .15585     (Insuf)    .07920     .97319         32    
+PIDE OFERTAS.TotalTimePerEntity             .34560     .04094     .13834     1.3202        395    
+Asigna comprador.WaitTimePerEntity          .01144     .00288     .00000     .09691        395    
+Proveedor Termina Oferta.WaitTimePerEntity  1.0985     (Insuf)    .55740     1.7928         19    
+Firma pedido.WaitTimePerEntity              .00134     5.7908E-04 .00000     .04531        372    
+Firma pedido.TotalTimePerEntity             .04927     .00139     .03162     .10743        372    
+Completan.TotalTimePerEntity                7.6679     (Insuf)    1.5810     15.491         20    
+PIDE OFERTAS.VATimePerEntity                .22935     .00399     .13033     .30809        395    
+Completan.WaitTimePerEntity                 7.6679     (Insuf)    1.5810     15.491         20    
+Linea SC.VATime                             .65340     .01201     .47620     1.2031        364    
+Linea SC.NVATime                            .09856     .00981     .03772     .60798        364    
+Linea SC.WaitTime                           2.1619     .66924     .00000     28.406        364    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        364    
+Linea SC.OtherTime                          20.127     1.3892     5.7018     59.604        364    
+Linea SC.TotalTime                          23.041     1.6331     6.4124     67.580        364    
+ICS.Queue.WaitingTime                       .03198     (Insuf)    .00000     .88290         32    
+Reclama entrega.Queue.WaitingTime           .00242     (Insuf)    .00000     .10334         52    
+Reclama ofertas.Queue.WaitingTime           .02379     (Insuf)    .00000     .45193         19    
+Firma pedido.Queue.WaitingTime              .00134     5.7908E-04 .00000     .04531        372    
+Recepcion.Queue.WaitingTime                 .01223     .00297     .00000     .20296        397    
+Asigna comprador.Queue.WaitingTime          .01144     .00288     .00000     .09691        395    
+PIDE OFERTAS.Queue.WaitingTime              .11625     .04135     .00000     1.0448        395    
+Almacena.Queue.WaitingTime                  .01344     .00638     .00000     .29203        364    
+Utilidad.Queue.WaitingTime                  .00721     .00241     .00000     .15705        396    
+Seleccion y pedido.Queue.WaitingTime        .01826     .01010     .00000     .63743        372    
+Reclaman faltante.Queue.WaitingTime         .04456     (Insuf)    .00000     .46438         21    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                24.446     2.4028     .00000     40.000     31.000    
+Calidad.NumberBusy                          .14888     .02698     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .14888     .02698     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .05924     .00864     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .05924     .00864     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .18384     .03170     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .18384     .03170     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .38298     .05147     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .19149     .02573     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     .00280     (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         3.4474E-04 (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         .00124     (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00136     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .01330     (Insuf)    .00000     2.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01238     (Insuf)    .00000     11.000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .12580     .05810     .00000     10.000     .00000    
+Almacena.Queue.NumberInQueue                .01341     (Insuf)    .00000     2.0000     .00000    
+Utilidad.Queue.NumberInQueue                .00783     (Insuf)    .00000     2.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .01861     (Insuf)    .00000     2.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       .00256     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     21  Infinite
+Reclamaciones                                    52  Infinite
+REACS                                            32  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                21.000    
+Reclama ofertas Accum NVA Time              2.3506    
+Asigna comprador Accum Wait Time            4.5182    
+Trabajos proveedor Number In                404.00    
+ICS Number In                               32.000    
+Reclama entrega Accum NVA Time              6.7858    
+Proveedor Termina Oferta Number In          19.000    
+Proveedor ofertando Number Out              372.00    
+Seleccion y pedido Number Out               372.00    
+ICS Accum Wait Time                         1.0232    
+Completan Number Out                        20.000    
+Firma pedido Number In                      372.00    
+Almacena Number In                          364.00    
+Proveedor Termina Oferta Accum Wait Time    20.871    
+Seleccion y pedido Number In                372.00    
+Utilidad Number Out                         396.00    
+ICS Accum NVA Time                          3.9639    
+Reclama entrega Number Out                  52.000    
+Reclaman faltante Number In                 21.000    
+Utilidad Number In                          396.00    
+Firma pedido Accum Wait Time                .49736    
+Utilidad Accum VA Time                      54.340    
+Seleccion y pedido Accum Wait Time          6.7921    
+Seleccion y pedido Accum VA Time            33.779    
+Reclama entrega Number In                   52.000    
+ICS Number Out                              32.000    
+Trabajos proveedor Accum Other Time         1192.0    
+Completan Number In                         21.000    
+Reclaman faltante Accum Wait Time           .93577    
+Utilidad Accum Wait Time                    2.8569    
+Almacena Accum Wait Time                    4.8935    
+Termina Entregar Number Out                 50.000    
+Almacena Accum VA Time                      22.981    
+PIDE OFERTAS Accum VA Time                  90.592    
+Reclama entrega Accum Wait Time             .12583    
+Asigna comprador Number Out                 395.00    
+Proveedor ofertando Accum Other Time        6256.8    
+Completan Accum Wait Time                   153.35    
+Termina Entregar Number In                  52.000    
+Firma pedido Accum NVA Time                 17.831    
+Recepcion Number In                         397.00    
+Almacena Number Out                         364.00    
+Firma pedido Number Out                     372.00    
+Reclama ofertas Number Out                  19.000    
+PIDE OFERTAS Number In                      395.00    
+Termina Entregar Accum Wait Time            541.78    
+Asigna comprador Accum NVA Time             3.7916    
+Proveedor ofertando Number In               395.00    
+Reclama ofertas Number In                   19.000    
+PIDE OFERTAS Accum Wait Time                45.917    
+Recepcion Accum Wait Time                   4.8548    
+Asigna comprador Number In                  395.00    
+Recepcion Number Out                        397.00    
+Recepcion Accum VA Time                     44.120    
+PIDE OFERTAS Number Out                     395.00    
+Proveedor Termina Oferta Number Out         19.000    
+Reclaman faltante Accum NVA Time            2.3162    
+Reclama ofertas Accum Wait Time             .45193    
+Trabajos proveedor Number Out               399.00    
+Linea SC.NumberIn                           395.00    
+Linea SC.NumberOut                          364.00    
+Calidad.NumberSeized                        396.00    
+Calidad.ScheduledUtilization                .14888    
+Jefetura.NumberSeized                       767.00    
+Jefetura.ScheduledUtilization               .05924    
+Almacen.NumberSeized                        761.00    
+Almacen.ScheduledUtilization                .18384    
+Comprador.NumberSeized                      891.00    
+Comprador.ScheduledUtilization              .19149    
+System.NumberOut                            364.00    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 5 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .12878     (Insuf)    .07176     .39507         27    
+Seleccion y pedido.TotalTimePerEntity       .10284     .00687     .05605     .52570        368    
+Trabajos proveedor.OtherTimePerEntity       2.9189     .13015     1.2625     5.5657        399    
+Almacena.VATimePerEntity                    .06237     .00139     .03584     .08875        362    
+PIDE OFERTAS.WaitTimePerEntity              .10409     .02265     .00000     .85631        383    
+Seleccion y pedido.WaitTimePerEntity        .01288     .00705     .00000     .42364        368    
+Proveedor ofertando.TotalTimePerEntity      16.935     1.6974     2.2189     55.383        368    
+Utilidad.VATimePerEntity                    .13835     .00199     .10096     .18553        395    
+Reclama ofertas.NVATimePerEntity            .11862     (Insuf)    .08050     .16612         17    
+Utilidad.TotalTimePerEntity                 .14575     .00333     .10096     .32966        395    
+Reclama entrega.NVATimePerEntity            .12323     (Insuf)    .06983     .17636         71    
+Almacena.WaitTimePerEntity                  .01424     (Corr)     .00000     .29519        362    
+Tiempo Proceso                              21.840     1.8609     1.7075     71.225        362    
+Almacena.TotalTimePerEntity                 .07660     .00587     .03584     .35829        362    
+Asigna comprador.NVATimePerEntity           .01022     4.6479E-04 .00133     .01836        383    
+Proveedor ofertando.OtherTimePerEntity      16.935     1.6974     2.2189     55.383        368    
+Termina Entregar.WaitTimePerEntity          11.779     (Insuf)    5.2084     19.806         69    
+ICS.NVATimePerEntity                        .11180     (Insuf)    .07158     .16164         33    
+Asigna comprador.TotalTimePerEntity         .02351     .00276     .00142     .09937        383    
+Reclama entrega.WaitTimePerEntity           .01332     (Insuf)    .00000     .31052         71    
+Reclama entrega.TotalTimePerEntity          .13655     (Insuf)    .06983     .48671         71    
+Termina Entregar.TotalTimePerEntity         11.779     (Insuf)    5.2084     19.806         69    
+Recepcion.WaitTimePerEntity                 .01360     .00377     .00000     .30727        397    
+Recepcion.VATimePerEntity                   .11168     .00273     .06311     .18539        397    
+Firma pedido.NVATimePerEntity               .04880     8.8296E-04 .03209     .07094        368    
+Reclaman faltante.NVATimePerEntity          .10265     (Insuf)    .07114     .18038         27    
+Proveedor Termina Oferta.TotalTimePerEntit  .96056     (Insuf)    .37985     1.7000         17    
+Reclama ofertas.WaitTimePerEntity           .05251     (Insuf)    .00000     .36245         17    
+Trabajos proveedor.TotalTimePerEntity       2.9189     .13015     1.2625     5.5657        399    
+Seleccion y pedido.VATimePerEntity          .08996     .00162     .05605     .12337        368    
+ICS.WaitTimePerEntity                       .02961     (Insuf)    .00000     .43624         33    
+Recepcion.TotalTimePerEntity                .12528     .00551     .06353     .38700        397    
+Utilidad.WaitTimePerEntity                  .00740     .00234     .00000     .22636        395    
+Reclaman faltante.WaitTimePerEntity         .02613     (Insuf)    .00000     .32393         27    
+Reclama ofertas.TotalTimePerEntity          .17113     (Insuf)    .08050     .45742         17    
+ICS.TotalTimePerEntity                      .14142     (Insuf)    .07158     .54103         33    
+PIDE OFERTAS.TotalTimePerEntity             .33307     .02464     .13098     1.0952        383    
+Asigna comprador.WaitTimePerEntity          .01329     .00271     .00000     .09236        383    
+Proveedor Termina Oferta.WaitTimePerEntity  .96056     (Insuf)    .37985     1.7000         17    
+Firma pedido.WaitTimePerEntity              .00166     6.3665E-04 .00000     .05842        368    
+Firma pedido.TotalTimePerEntity             .05046     .00130     .03209     .11219        368    
+Completan.TotalTimePerEntity                8.4339     (Insuf)    2.7980     15.212         25    
+PIDE OFERTAS.VATimePerEntity                .22898     .00466     .13098     .30882        383    
+Completan.WaitTimePerEntity                 8.4339     (Insuf)    2.7980     15.212         25    
+Linea SC.VATime                             .65383     .01124     .47549     1.2300        362    
+Linea SC.NVATime                            .10506     .01052     .04120     .75339        362    
+Linea SC.WaitTime                           3.0302     .88396     .00000     56.446        362    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        362    
+Linea SC.OtherTime                          20.219     1.6908     5.5798     59.236        362    
+Linea SC.TotalTime                          24.008     1.9924     6.3393     71.225        362    
+ICS.Queue.WaitingTime                       .02961     (Insuf)    .00000     .43624         33    
+Reclama entrega.Queue.WaitingTime           .01332     (Insuf)    .00000     .31052         71    
+Reclama ofertas.Queue.WaitingTime           .05251     (Insuf)    .00000     .36245         17    
+Firma pedido.Queue.WaitingTime              .00166     6.3665E-04 .00000     .05842        368    
+Recepcion.Queue.WaitingTime                 .01360     .00377     .00000     .30727        397    
+Asigna comprador.Queue.WaitingTime          .01329     .00271     .00000     .09236        383    
+PIDE OFERTAS.Queue.WaitingTime              .10409     .02265     .00000     .85631        383    
+Almacena.Queue.WaitingTime                  .01424     (Corr)     .00000     .29519        362    
+Utilidad.Queue.WaitingTime                  .00740     .00234     .00000     .22636        395    
+Seleccion y pedido.Queue.WaitingTime        .01288     .00705     .00000     .42364        368    
+Reclaman faltante.Queue.WaitingTime         .02613     (Insuf)    .00000     .32393         27    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                24.584     2.3754     .00000     43.000     21.000    
+Calidad.NumberBusy                          .14972     .02746     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .14972     .02746     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .05992     .00989     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .05992     .00989     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .18333     .03299     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .18333     .03299     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .37818     .04121     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .18909     .02060     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     .00268     (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00259     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         .00245     (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00168     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .01479     (Insuf)    .00000     2.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01394     (Insuf)    .00000     8.0000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .10922     .03777     .00000     7.0000     .00000    
+Almacena.Queue.NumberInQueue                .01412     (Insuf)    .00000     3.0000     .00000    
+Utilidad.Queue.NumberInQueue                .00801     (Insuf)    .00000     2.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .01298     (Insuf)    .00000     2.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       .00193     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     27  Infinite
+Reclamaciones                                    71  Infinite
+REACS                                            33  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                27.000    
+Reclama ofertas Accum NVA Time              2.0166    
+Asigna comprador Accum Wait Time            5.0897    
+Trabajos proveedor Number In                401.00    
+ICS Number In                               33.000    
+Reclama entrega Accum NVA Time              8.7490    
+Proveedor Termina Oferta Number In          17.000    
+Proveedor ofertando Number Out              368.00    
+Seleccion y pedido Number Out               368.00    
+ICS Accum Wait Time                         .97729    
+Completan Number Out                        25.000    
+Firma pedido Number In                      368.00    
+Almacena Number In                          362.00    
+Proveedor Termina Oferta Accum Wait Time    16.329    
+Seleccion y pedido Number In                368.00    
+Utilidad Number Out                         395.00    
+ICS Accum NVA Time                          3.6894    
+Reclama entrega Number Out                  71.000    
+Reclaman faltante Number In                 27.000    
+Utilidad Number In                          395.00    
+Firma pedido Accum Wait Time                .61147    
+Utilidad Accum VA Time                      54.646    
+Seleccion y pedido Accum Wait Time          4.7393    
+Seleccion y pedido Accum VA Time            33.106    
+Reclama entrega Number In                   71.000    
+ICS Number Out                              33.000    
+Trabajos proveedor Accum Other Time         1164.6    
+Completan Number In                         27.000    
+Reclaman faltante Accum Wait Time           .70545    
+Utilidad Accum Wait Time                    2.9229    
+Almacena Accum Wait Time                    5.1538    
+Termina Entregar Number Out                 69.000    
+Almacena Accum VA Time                      22.577    
+PIDE OFERTAS Accum VA Time                  87.700    
+Reclama entrega Accum Wait Time             .94601    
+Asigna comprador Number Out                 383.00    
+Proveedor ofertando Accum Other Time        6232.2    
+Completan Accum Wait Time                   210.84    
+Termina Entregar Number In                  71.000    
+Firma pedido Accum NVA Time                 17.956    
+Recepcion Number In                         397.00    
+Almacena Number Out                         362.00    
+Firma pedido Number Out                     368.00    
+Reclama ofertas Number Out                  17.000    
+PIDE OFERTAS Number In                      383.00    
+Termina Entregar Accum Wait Time            812.75    
+Asigna comprador Accum NVA Time             3.9135    
+Proveedor ofertando Number In               383.00    
+Reclama ofertas Number In                   17.000    
+PIDE OFERTAS Accum Wait Time                39.865    
+Recepcion Accum Wait Time                   5.3981    
+Asigna comprador Number In                  383.00    
+Recepcion Number Out                        397.00    
+Recepcion Accum VA Time                     44.338    
+PIDE OFERTAS Number Out                     383.00    
+Proveedor Termina Oferta Number Out         17.000    
+Reclaman faltante Accum NVA Time            2.7716    
+Reclama ofertas Accum Wait Time             .89261    
+Trabajos proveedor Number Out               399.00    
+Linea SC.NumberIn                           383.00    
+Linea SC.NumberOut                          362.00    
+Calidad.NumberSeized                        395.00    
+Calidad.ScheduledUtilization                .14972    
+Jefetura.NumberSeized                       751.00    
+Jefetura.ScheduledUtilization               .05992    
+Almacen.NumberSeized                        759.00    
+Almacen.ScheduledUtilization                .18333    
+Comprador.NumberSeized                      899.00    
+Comprador.ScheduledUtilization              .18909    
+System.NumberOut                            362.00    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 6 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .12468     (Insuf)    .07390     .25133         25    
+Seleccion y pedido.TotalTimePerEntity       .09995     .00696     .05672     .47872        338    
+Trabajos proveedor.OtherTimePerEntity       2.8800     .19962     1.1857     5.5156        351    
+Almacena.VATimePerEntity                    .06134     .00142     .03350     .09172        331    
+PIDE OFERTAS.WaitTimePerEntity              .08949     (Corr)     .00000     .83395        348    
+Seleccion y pedido.WaitTimePerEntity        .00982     .00652     .00000     .38029        338    
+Proveedor ofertando.TotalTimePerEntity      15.648     (Corr)     2.4270     55.536        338    
+Utilidad.VATimePerEntity                    .13788     .00203     .10343     .18506        349    
+Reclama ofertas.NVATimePerEntity            .12792     (Insuf)    .08218     .18195         14    
+Utilidad.TotalTimePerEntity                 .14516     .00729     .10343     .37714        349    
+Reclama entrega.NVATimePerEntity            .12854     (Insuf)    .06789     .17900         63    
+Almacena.WaitTimePerEntity                  .01421     .01033     .00000     .32166        331    
+Tiempo Proceso                              20.985     2.0044     1.6138     58.998        331    
+Almacena.TotalTimePerEntity                 .07555     .01049     .03350     .38544        331    
+Asigna comprador.NVATimePerEntity           .00985     2.7598E-04 .00164     .01773        348    
+Proveedor ofertando.OtherTimePerEntity      15.648     (Corr)     2.4270     55.536        338    
+Termina Entregar.WaitTimePerEntity          10.930     (Insuf)    5.8625     18.490         62    
+ICS.NVATimePerEntity                        .12648     (Insuf)    .07839     .15117         18    
+Asigna comprador.TotalTimePerEntity         .02057     .00178     .00164     .07985        348    
+Reclama entrega.WaitTimePerEntity           .01724     (Insuf)    .00000     .31179         63    
+Reclama entrega.TotalTimePerEntity          .14578     (Insuf)    .06789     .44392         63    
+Termina Entregar.TotalTimePerEntity         10.930     (Insuf)    5.8625     18.490         62    
+Recepcion.WaitTimePerEntity                 .01168     .00664     .00000     .22186        350    
+Recepcion.VATimePerEntity                   .11207     .00320     .06581     .18290        350    
+Firma pedido.NVATimePerEntity               .04857     9.7727E-04 .03188     .07178        338    
+Reclaman faltante.NVATimePerEntity          .11666     (Insuf)    .07390     .16488         25    
+Proveedor Termina Oferta.TotalTimePerEntit  1.1986     (Insuf)    .73852     1.7841         14    
+Reclama ofertas.WaitTimePerEntity           .00000     (Insuf)    .00000     .00000         14    
+Trabajos proveedor.TotalTimePerEntity       2.8800     .19962     1.1857     5.5156        351    
+Seleccion y pedido.VATimePerEntity          .09014     .00170     .05593     .12271        338    
+ICS.WaitTimePerEntity                       .01911     (Insuf)    .00000     .22861         18    
+Recepcion.TotalTimePerEntity                .12375     .00739     .06581     .36903        350    
+Utilidad.WaitTimePerEntity                  .00729     .00658     .00000     .24190        349    
+Reclaman faltante.WaitTimePerEntity         .00802     (Insuf)    .00000     .13204         25    
+Reclama ofertas.TotalTimePerEntity          .12792     (Insuf)    .08218     .18195         14    
+ICS.TotalTimePerEntity                      .14559     (Insuf)    .07839     .37526         18    
+PIDE OFERTAS.TotalTimePerEntity             .31560     (Corr)     .13724     1.0636        348    
+Asigna comprador.WaitTimePerEntity          .01072     .00179     .00000     .06976        348    
+Proveedor Termina Oferta.WaitTimePerEntity  1.1986     (Insuf)    .73852     1.7841         14    
+Firma pedido.WaitTimePerEntity              .00119     6.5587E-04 .00000     .04266        338    
+Firma pedido.TotalTimePerEntity             .04976     .00106     .03188     .10082        338    
+Completan.TotalTimePerEntity                8.7907     (Insuf)    1.6993     17.248         24    
+PIDE OFERTAS.VATimePerEntity                .22611     .00413     .13724     .30514        348    
+Completan.WaitTimePerEntity                 8.7907     (Insuf)    1.6993     17.248         24    
+Linea SC.VATime                             .64018     .00829     .48953     .98398        331    
+Linea SC.NVATime                            .10285     .00772     .03839     .41609        331    
+Linea SC.WaitTime                           2.8825     .70219     .00000     28.041        331    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        331    
+Linea SC.OtherTime                          18.709     1.8931     6.5449     58.279        331    
+Linea SC.TotalTime                          22.335     2.0804     7.2753     67.258        331    
+ICS.Queue.WaitingTime                       .01911     (Insuf)    .00000     .22861         18    
+Reclama entrega.Queue.WaitingTime           .01724     (Insuf)    .00000     .31179         63    
+Reclama ofertas.Queue.WaitingTime           .00000     (Insuf)    .00000     .00000         14    
+Firma pedido.Queue.WaitingTime              .00119     6.5587E-04 .00000     .04266        338    
+Recepcion.Queue.WaitingTime                 .01168     .00664     .00000     .22186        350    
+Asigna comprador.Queue.WaitingTime          .01072     .00179     .00000     .06976        348    
+PIDE OFERTAS.Queue.WaitingTime              .08949     (Corr)     .00000     .83395        348    
+Almacena.Queue.WaitingTime                  .01421     .01033     .00000     .32166        331    
+Utilidad.Queue.WaitingTime                  .00729     .00658     .00000     .24190        349    
+Seleccion y pedido.Queue.WaitingTime        .00982     .00652     .00000     .38029        338    
+Reclaman faltante.Queue.WaitingTime         .00802     (Insuf)    .00000     .13204         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                20.918     (Corr)     .00000     40.000     17.000    
+Calidad.NumberBusy                          .13183     .02733     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .13183     .02733     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .05437     (Corr)     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .05437     (Corr)     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .16309     .03331     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .16309     .03331     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .34037     .06215     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .17018     .03107     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     9.4237E-04 (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00298     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         .00000     (Insuf)    .00000     .00000     .00000    
+Firma pedido.Queue.NumberInQueue            .00110     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .01120     (Insuf)    .00000     2.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01022     (Insuf)    .00000     8.0000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .08532     (Insuf)    .00000     7.0000     .00000    
+Almacena.Queue.NumberInQueue                .01289     (Insuf)    .00000     3.0000     .00000    
+Utilidad.Queue.NumberInQueue                .00697     (Insuf)    .00000     2.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .00909     (Insuf)    .00000     3.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       5.4934E-04 (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     25  Infinite
+Reclamaciones                                    63  Infinite
+REACS                                            18  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                25.000    
+Reclama ofertas Accum NVA Time              1.7909    
+Asigna comprador Accum Wait Time            3.7317    
+Trabajos proveedor Number In                356.00    
+ICS Number In                               18.000    
+Reclama entrega Accum NVA Time              8.0977    
+Proveedor Termina Oferta Number In          14.000    
+Proveedor ofertando Number Out              338.00    
+Seleccion y pedido Number Out               338.00    
+ICS Accum Wait Time                         .34396    
+Completan Number Out                        24.000    
+Firma pedido Number In                      338.00    
+Almacena Number In                          331.00    
+Proveedor Termina Oferta Accum Wait Time    16.780    
+Seleccion y pedido Number In                338.00    
+Utilidad Number Out                         349.00    
+ICS Accum NVA Time                          2.2766    
+Reclama entrega Number Out                  63.000    
+Reclaman faltante Number In                 25.000    
+Utilidad Number In                          349.00    
+Firma pedido Accum Wait Time                .40260    
+Utilidad Accum VA Time                      48.119    
+Seleccion y pedido Accum Wait Time          3.3178    
+Seleccion y pedido Accum VA Time            30.466    
+Reclama entrega Number In                   63.000    
+ICS Number Out                              18.000    
+Trabajos proveedor Accum Other Time         1010.9    
+Completan Number In                         25.000    
+Reclaman faltante Accum Wait Time           .20051    
+Utilidad Accum Wait Time                    2.5426    
+Almacena Accum Wait Time                    4.7046    
+Termina Entregar Number Out                 62.000    
+Almacena Accum VA Time                      20.302    
+PIDE OFERTAS Accum VA Time                  78.686    
+Reclama entrega Accum Wait Time             1.0863    
+Asigna comprador Number Out                 348.00    
+Proveedor ofertando Accum Other Time        5289.1    
+Completan Accum Wait Time                   210.97    
+Termina Entregar Number In                  63.000    
+Firma pedido Accum NVA Time                 16.416    
+Recepcion Number In                         350.00    
+Almacena Number Out                         331.00    
+Firma pedido Number Out                     338.00    
+Reclama ofertas Number Out                  14.000    
+PIDE OFERTAS Number In                      348.00    
+Termina Entregar Accum Wait Time            677.70    
+Asigna comprador Accum NVA Time             3.4277    
+Proveedor ofertando Number In               348.00    
+Reclama ofertas Number In                   14.000    
+PIDE OFERTAS Accum Wait Time                31.141    
+Recepcion Accum Wait Time                   4.0882    
+Asigna comprador Number In                  348.00    
+Recepcion Number Out                        350.00    
+Recepcion Accum VA Time                     39.224    
+PIDE OFERTAS Number Out                     348.00    
+Proveedor Termina Oferta Number Out         14.000    
+Reclaman faltante Accum NVA Time            2.9165    
+Reclama ofertas Accum Wait Time             .00000    
+Trabajos proveedor Number Out               351.00    
+Linea SC.NumberIn                           348.00    
+Linea SC.NumberOut                          331.00    
+Calidad.NumberSeized                        349.00    
+Calidad.ScheduledUtilization                .13183    
+Jefetura.NumberSeized                       686.00    
+Jefetura.ScheduledUtilization               .05437    
+Almacen.NumberSeized                        681.00    
+Almacen.ScheduledUtilization                .16309    
+Comprador.NumberSeized                      806.00    
+Comprador.ScheduledUtilization              .17018    
+System.NumberOut                            331.00    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 7 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .10823     (Insuf)    .06915     .15549         31    
+Seleccion y pedido.TotalTimePerEntity       .10030     (Corr)     .05685     .74917        334    
+Trabajos proveedor.OtherTimePerEntity       2.9027     .17329     1.2778     5.5584        360    
+Almacena.VATimePerEntity                    .06256     .00165     .03423     .09214        329    
+PIDE OFERTAS.WaitTimePerEntity              .10102     .04008     .00000     .93382        347    
+Seleccion y pedido.WaitTimePerEntity        .01078     (Corr)     .00000     .65915        334    
+Proveedor ofertando.TotalTimePerEntity      16.412     2.0376     1.9990     57.154        334    
+Utilidad.VATimePerEntity                    .13679     .00214     .10094     .18442        359    
+Reclama ofertas.NVATimePerEntity            .13082     (Insuf)    .09514     .17019         20    
+Utilidad.TotalTimePerEntity                 .14321     .00456     .10094     .28278        359    
+Reclama entrega.NVATimePerEntity            .12628     (Insuf)    .07514     .17769         73    
+Almacena.WaitTimePerEntity                  .01402     .00530     .00000     .29276        329    
+Tiempo Proceso                              21.700     2.2070     1.6936     67.464        329    
+Almacena.TotalTimePerEntity                 .07659     .00541     .03550     .36309        329    
+Asigna comprador.NVATimePerEntity           .01043     4.5872E-04 .00185     .01849        347    
+Proveedor ofertando.OtherTimePerEntity      16.412     2.0376     1.9990     57.154        334    
+Termina Entregar.WaitTimePerEntity          11.776     (Insuf)    5.7204     18.971         72    
+ICS.NVATimePerEntity                        .12221     (Insuf)    .07965     .15970         30    
+Asigna comprador.TotalTimePerEntity         .02218     .00366     .00293     .12047        347    
+Reclama entrega.WaitTimePerEntity           .01252     (Insuf)    .00000     .58173         73    
+Reclama entrega.TotalTimePerEntity          .13881     (Insuf)    .07514     .75002         73    
+Termina Entregar.TotalTimePerEntity         11.776     (Insuf)    5.7204     18.971         72    
+Recepcion.WaitTimePerEntity                 .01357     .00521     .00000     .25884        359    
+Recepcion.VATimePerEntity                   .11273     .00301     .06419     .18635        359    
+Firma pedido.NVATimePerEntity               .04733     8.9206E-04 .03236     .07214        334    
+Reclaman faltante.NVATimePerEntity          .10754     (Insuf)    .06915     .15549         31    
+Proveedor Termina Oferta.TotalTimePerEntit  1.1210     (Insuf)    .55427     1.6020         20    
+Reclama ofertas.WaitTimePerEntity           .02704     (Insuf)    .00000     .54087         20    
+Trabajos proveedor.TotalTimePerEntity       2.9027     .17329     1.2778     5.5584        360    
+Seleccion y pedido.VATimePerEntity          .08952     .00171     .05685     .12334        334    
+ICS.WaitTimePerEntity                       .00118     (Insuf)    .00000     .03177         30    
+Recepcion.TotalTimePerEntity                .12629     .00638     .06419     .41836        359    
+Utilidad.WaitTimePerEntity                  .00642     .00305     .00000     .13101        359    
+Reclaman faltante.WaitTimePerEntity         6.9542E-04 (Insuf)    .00000     .02156         31    
+Reclama ofertas.TotalTimePerEntity          .15787     (Insuf)    .09514     .70651         20    
+ICS.TotalTimePerEntity                      .12339     (Insuf)    .07965     .17270         30    
+PIDE OFERTAS.TotalTimePerEntity             .32908     .04202     .13349     1.0943        347    
+Asigna comprador.WaitTimePerEntity          .01175     .00349     .00000     .10952        347    
+Proveedor Termina Oferta.WaitTimePerEntity  1.1210     (Insuf)    .55427     1.6020         20    
+Firma pedido.WaitTimePerEntity              .00158     6.5263E-04 .00000     .05104        334    
+Firma pedido.TotalTimePerEntity             .04891     .00108     .03236     .09585        334    
+Completan.TotalTimePerEntity                7.5382     (Insuf)    2.3288     15.970         31    
+PIDE OFERTAS.VATimePerEntity                .22806     .00481     .13241     .30952        347    
+Completan.WaitTimePerEntity                 7.5382     (Insuf)    2.3288     15.970         31    
+Linea SC.VATime                             .65249     .01245     .44574     1.2414        329    
+Linea SC.NVATime                            .11442     .01355     .03615     .57189        329    
+Linea SC.WaitTime                           3.5230     1.0062     .00000     35.236        329    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        329    
+Linea SC.OtherTime                          19.504     1.9951     5.3990     58.881        329    
+Linea SC.TotalTime                          23.794     2.1082     6.2730     68.585        329    
+ICS.Queue.WaitingTime                       .00118     (Insuf)    .00000     .03177         30    
+Reclama entrega.Queue.WaitingTime           .01252     (Insuf)    .00000     .58173         73    
+Reclama ofertas.Queue.WaitingTime           .02704     (Insuf)    .00000     .54087         20    
+Firma pedido.Queue.WaitingTime              .00158     6.5263E-04 .00000     .05104        334    
+Recepcion.Queue.WaitingTime                 .01357     .00521     .00000     .25884        359    
+Asigna comprador.Queue.WaitingTime          .01175     .00349     .00000     .10952        347    
+PIDE OFERTAS.Queue.WaitingTime              .10102     .04008     .00000     .93382        347    
+Almacena.Queue.WaitingTime                  .01402     .00530     .00000     .29276        329    
+Utilidad.Queue.WaitingTime                  .00642     .00305     .00000     .13101        359    
+Seleccion y pedido.Queue.WaitingTime        .01078     (Corr)     .00000     .65915        334    
+Reclaman faltante.Queue.WaitingTime         6.9542E-04 (Insuf)    .00000     .02156         31    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                22.193     2.1694     .00000     38.000     18.000    
+Calidad.NumberBusy                          .13454     .01908     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .13454     .01908     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .05323     .00636     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .05323     .00636     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .16727     .02288     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .16727     .02288     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .35033     .03665     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .17516     .01832     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     9.7120E-05 (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00250     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         .00148     (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00144     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .01334     (Insuf)    .00000     2.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01117     (Insuf)    .00000     9.0000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .09604     (Insuf)    .00000     8.0000     .00000    
+Almacena.Queue.NumberInQueue                .01264     (Insuf)    .00000     2.0000     .00000    
+Utilidad.Queue.NumberInQueue                .00631     (Insuf)    .00000     1.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .00987     (Insuf)    .00000     2.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       5.9063E-05 (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     31  Infinite
+Reclamaciones                                    73  Infinite
+REACS                                            30  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                31.000    
+Reclama ofertas Accum NVA Time              2.6165    
+Asigna comprador Accum Wait Time            4.0764    
+Trabajos proveedor Number In                364.00    
+ICS Number In                               30.000    
+Reclama entrega Accum NVA Time              9.2186    
+Proveedor Termina Oferta Number In          20.000    
+Proveedor ofertando Number Out              334.00    
+Seleccion y pedido Number Out               334.00    
+ICS Accum Wait Time                         .03545    
+Completan Number Out                        31.000    
+Firma pedido Number In                      334.00    
+Almacena Number In                          329.00    
+Proveedor Termina Oferta Accum Wait Time    22.421    
+Seleccion y pedido Number In                334.00    
+Utilidad Number Out                         359.00    
+ICS Accum NVA Time                          3.6662    
+Reclama entrega Number Out                  73.000    
+Reclaman faltante Number In                 31.000    
+Utilidad Number In                          359.00    
+Firma pedido Accum Wait Time                .52669    
+Utilidad Accum VA Time                      49.108    
+Seleccion y pedido Accum Wait Time          3.6018    
+Seleccion y pedido Accum VA Time            29.899    
+Reclama entrega Number In                   73.000    
+ICS Number Out                              30.000    
+Trabajos proveedor Accum Other Time         1044.9    
+Completan Number In                         31.000    
+Reclaman faltante Accum Wait Time           .02156    
+Utilidad Accum Wait Time                    2.3044    
+Almacena Accum Wait Time                    4.6135    
+Termina Entregar Number Out                 72.000    
+Almacena Accum VA Time                      20.583    
+PIDE OFERTAS Accum VA Time                  79.135    
+Reclama entrega Accum Wait Time             .91422    
+Asigna comprador Number Out                 347.00    
+Proveedor ofertando Accum Other Time        5481.6    
+Completan Accum Wait Time                   233.68    
+Termina Entregar Number In                  73.000    
+Firma pedido Accum NVA Time                 15.808    
+Recepcion Number In                         359.00    
+Almacena Number Out                         329.00    
+Firma pedido Number Out                     334.00    
+Reclama ofertas Number Out                  20.000    
+PIDE OFERTAS Number In                      347.00    
+Termina Entregar Accum Wait Time            847.92    
+Asigna comprador Accum NVA Time             3.6197    
+Proveedor ofertando Number In               347.00    
+Reclama ofertas Number In                   20.000    
+PIDE OFERTAS Accum Wait Time                35.054    
+Recepcion Accum Wait Time                   4.8707    
+Asigna comprador Number In                  347.00    
+Recepcion Number Out                        359.00    
+Recepcion Accum VA Time                     40.468    
+PIDE OFERTAS Number Out                     347.00    
+Proveedor Termina Oferta Number Out         20.000    
+Reclaman faltante Accum NVA Time            3.3337    
+Reclama ofertas Accum Wait Time             .54087    
+Trabajos proveedor Number Out               360.00    
+Linea SC.NumberIn                           347.00    
+Linea SC.NumberOut                          329.00    
+Calidad.NumberSeized                        359.00    
+Calidad.ScheduledUtilization                .13454    
+Jefetura.NumberSeized                       681.00    
+Jefetura.ScheduledUtilization               .05323    
+Almacen.NumberSeized                        688.00    
+Almacen.ScheduledUtilization                .16727    
+Comprador.NumberSeized                      835.00    
+Comprador.ScheduledUtilization              .17516    
+System.NumberOut                            329.00    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 8 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .13744     (Insuf)    .06849     .31220         21    
+Seleccion y pedido.TotalTimePerEntity       .11588     .01207     .05388     .70262        399    
+Trabajos proveedor.OtherTimePerEntity       3.1483     .15617     1.0808     5.4196        423    
+Almacena.VATimePerEntity                    .06395     .00139     .03348     .09220        390    
+PIDE OFERTAS.WaitTimePerEntity              .12000     .04242     .00000     1.0742        422    
+Seleccion y pedido.WaitTimePerEntity        .02518     .01180     .00000     .60321        399    
+Proveedor ofertando.TotalTimePerEntity      16.103     1.5986     2.0242     56.138        399    
+Utilidad.VATimePerEntity                    .13922     .00199     .10106     .18423        419    
+Reclama ofertas.NVATimePerEntity            .13041     (Insuf)    .07662     .18002         20    
+Utilidad.TotalTimePerEntity                 .14550     .00277     .10106     .33336        419    
+Reclama entrega.NVATimePerEntity            .13168     (Insuf)    .07153     .17614         79    
+Almacena.WaitTimePerEntity                  .01732     .00715     .00000     .31398        390    
+Tiempo Proceso                              21.879     1.8808     1.5622     75.049        390    
+Almacena.TotalTimePerEntity                 .08128     .00763     .03353     .37608        390    
+Asigna comprador.NVATimePerEntity           .00998     3.8853E-04 .00126     .01871        422    
+Proveedor ofertando.OtherTimePerEntity      16.103     1.5986     2.0242     56.138        399    
+Termina Entregar.WaitTimePerEntity          11.562     (Insuf)    5.4694     17.241         77    
+ICS.NVATimePerEntity                        .12087     (Insuf)    .07009     .18206         29    
+Asigna comprador.TotalTimePerEntity         .02463     .00397     .00126     .13935        422    
+Reclama entrega.WaitTimePerEntity           .03713     (Insuf)    .00000     .56699         79    
+Reclama entrega.TotalTimePerEntity          .16880     (Insuf)    .07153     .73606         79    
+Termina Entregar.TotalTimePerEntity         11.562     (Insuf)    5.4694     17.241         77    
+Recepcion.WaitTimePerEntity                 .01824     .00634     .00000     .37122        421    
+Recepcion.VATimePerEntity                   .11287     .00283     .06612     .18277        421    
+Firma pedido.NVATimePerEntity               .04868     8.3721E-04 .03185     .07125        399    
+Reclaman faltante.NVATimePerEntity          .10463     (Insuf)    .06849     .14785         21    
+Proveedor Termina Oferta.TotalTimePerEntit  1.3553     (Insuf)    .77873     1.8131         20    
+Reclama ofertas.WaitTimePerEntity           .03171     (Insuf)    .00000     .46062         20    
+Trabajos proveedor.TotalTimePerEntity       3.1483     .15617     1.0808     5.4196        423    
+Seleccion y pedido.VATimePerEntity          .09069     .00153     .05388     .11971        399    
+ICS.WaitTimePerEntity                       .00637     (Insuf)    .00000     .12240         29    
+Recepcion.TotalTimePerEntity                .13110     .00688     .06612     .44606        421    
+Utilidad.WaitTimePerEntity                  .00629     .00190     .00000     .14913        419    
+Reclaman faltante.WaitTimePerEntity         .03281     (Insuf)    .00000     .22858         21    
+Reclama ofertas.TotalTimePerEntity          .16211     (Insuf)    .07662     .60380         20    
+ICS.TotalTimePerEntity                      .12724     (Insuf)    .07009     .28946         29    
+PIDE OFERTAS.TotalTimePerEntity             .35339     .04274     .14225     1.3341        422    
+Asigna comprador.WaitTimePerEntity          .01465     .00381     .00000     .12996        422    
+Proveedor Termina Oferta.WaitTimePerEntity  1.3553     (Insuf)    .77873     1.8131         20    
+Firma pedido.WaitTimePerEntity              .00179     7.1949E-04 .00000     .07123        399    
+Firma pedido.TotalTimePerEntity             .05047     .00115     .03185     .13852        399    
+Completan.TotalTimePerEntity                8.8897     (Insuf)    2.6831     17.632         20    
+PIDE OFERTAS.VATimePerEntity                .23339     .00412     .14093     .30651        422    
+Completan.WaitTimePerEntity                 8.8897     (Insuf)    2.6831     17.632         20    
+Linea SC.VATime                             .65838     .01021     .49093     1.4525        390    
+Linea SC.NVATime                            .10427     .00958     .03465     .46309        390    
+Linea SC.WaitTime                           2.9931     (Corr)     .00000     42.277        390    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        390    
+Linea SC.OtherTime                          19.501     1.5425     6.1524     58.515        390    
+Linea SC.TotalTime                          23.257     1.8676     7.0912     75.049        390    
+ICS.Queue.WaitingTime                       .00637     (Insuf)    .00000     .12240         29    
+Reclama entrega.Queue.WaitingTime           .03713     (Insuf)    .00000     .56699         79    
+Reclama ofertas.Queue.WaitingTime           .03171     (Insuf)    .00000     .46062         20    
+Firma pedido.Queue.WaitingTime              .00179     7.1949E-04 .00000     .07123        399    
+Recepcion.Queue.WaitingTime                 .01824     .00634     .00000     .37122        421    
+Asigna comprador.Queue.WaitingTime          .01465     .00381     .00000     .12996        422    
+PIDE OFERTAS.Queue.WaitingTime              .12000     .04241     .00000     1.0742        422    
+Almacena.Queue.WaitingTime                  .01732     .00715     .00000     .31398        390    
+Utilidad.Queue.WaitingTime                  .00627     .00190     .00000     .14913        420    
+Seleccion y pedido.Queue.WaitingTime        .02518     .01180     .00000     .60321        399    
+Reclaman faltante.Queue.WaitingTime         .03281     (Insuf)    .00000     .22858         21    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                26.341     (Corr)     .00000     60.000     32.000    
+Calidad.NumberBusy                          .15993     (Corr)     .00000     1.0000     1.0000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .15993     (Corr)     .00000     1.0000     1.0000    
+Jefetura.NumberBusy                         .06475     (Corr)     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .06475     (Corr)     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .19852     (Corr)     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .19852     (Corr)     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .42024     (Corr)     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .21012     (Corr)     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     5.0584E-04 (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00804     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         .00174     (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00196     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .02104     (Insuf)    .00000     3.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01693     .00739     .00000     11.000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .13874     .06647     .00000     10.000     .00000    
+Almacena.Queue.NumberInQueue                .01851     (Insuf)    .00000     2.0000     .00000    
+Utilidad.Queue.NumberInQueue                .00722     (Insuf)    .00000     1.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .02753     (Insuf)    .00000     3.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       .00189     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     21  Infinite
+Reclamaciones                                    79  Infinite
+REACS                                            29  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                21.000    
+Reclama ofertas Accum NVA Time              2.6081    
+Asigna comprador Accum Wait Time            6.1812    
+Trabajos proveedor Number In                428.00    
+ICS Number In                               29.000    
+Reclama entrega Accum NVA Time              10.402    
+Proveedor Termina Oferta Number In          20.000    
+Proveedor ofertando Number Out              399.00    
+Seleccion y pedido Number Out               399.00    
+ICS Accum Wait Time                         .18463    
+Completan Number Out                        20.000    
+Firma pedido Number In                      399.00    
+Almacena Number In                          390.00    
+Proveedor Termina Oferta Accum Wait Time    27.107    
+Seleccion y pedido Number In                399.00    
+Utilidad Number Out                         419.00    
+ICS Accum NVA Time                          3.5052    
+Reclama entrega Number Out                  79.000    
+Reclaman faltante Number In                 21.000    
+Utilidad Number In                          420.00    
+Firma pedido Accum Wait Time                .71445    
+Utilidad Accum VA Time                      58.331    
+Seleccion y pedido Accum Wait Time          10.048    
+Seleccion y pedido Accum VA Time            36.185    
+Reclama entrega Number In                   79.000    
+ICS Number Out                              29.000    
+Trabajos proveedor Accum Other Time         1331.7    
+Completan Number In                         21.000    
+Reclaman faltante Accum Wait Time           .68896    
+Utilidad Accum Wait Time                    2.6348    
+Almacena Accum Wait Time                    6.7555    
+Termina Entregar Number Out                 77.000    
+Almacena Accum VA Time                      24.942    
+PIDE OFERTAS Accum VA Time                  98.490    
+Reclama entrega Accum Wait Time             2.9331    
+Asigna comprador Number Out                 422.00    
+Proveedor ofertando Accum Other Time        6425.2    
+Completan Accum Wait Time                   177.79    
+Termina Entregar Number In                  79.000    
+Firma pedido Accum NVA Time                 19.422    
+Recepcion Number In                         421.00    
+Almacena Number Out                         390.00    
+Firma pedido Number Out                     399.00    
+Reclama ofertas Number Out                  20.000    
+PIDE OFERTAS Number In                      422.00    
+Termina Entregar Accum Wait Time            890.33    
+Asigna comprador Accum NVA Time             4.2127    
+Proveedor ofertando Number In               422.00    
+Reclama ofertas Number In                   20.000    
+PIDE OFERTAS Accum Wait Time                50.639    
+Recepcion Accum Wait Time                   7.6785    
+Asigna comprador Number In                  422.00    
+Recepcion Number Out                        421.00    
+Recepcion Accum VA Time                     47.516    
+PIDE OFERTAS Number Out                     422.00    
+Proveedor Termina Oferta Number Out         20.000    
+Reclaman faltante Accum NVA Time            2.1972    
+Reclama ofertas Accum Wait Time             .63413    
+Trabajos proveedor Number Out               423.00    
+Linea SC.NumberIn                           422.00    
+Linea SC.NumberOut                          390.00    
+Calidad.NumberSeized                        420.00    
+Calidad.ScheduledUtilization                .15993    
+Jefetura.NumberSeized                       821.00    
+Jefetura.ScheduledUtilization               .06475    
+Almacen.NumberSeized                        811.00    
+Almacen.ScheduledUtilization                .19852    
+Comprador.NumberSeized                      970.00    
+Comprador.ScheduledUtilization              .21012    
+System.NumberOut                            390.00    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 9 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .12403     (Insuf)    .07956     .38851         25    
+Seleccion y pedido.TotalTimePerEntity       .10357     .00761     .05313     .58914        360    
+Trabajos proveedor.OtherTimePerEntity       3.0557     .15740     1.1580     5.3589        387    
+Almacena.VATimePerEntity                    .06251     .00129     .03309     .09227        355    
+PIDE OFERTAS.WaitTimePerEntity              .09909     .03802     .00000     1.0518        379    
+Seleccion y pedido.WaitTimePerEntity        .01366     .00800     .00000     .51071        360    
+Proveedor ofertando.TotalTimePerEntity      17.086     1.6093     1.5996     55.662        360    
+Utilidad.VATimePerEntity                    .13826     .00182     .10207     .18580        385    
+Reclama ofertas.NVATimePerEntity            .12756     (Insuf)    .10339     .16375         14    
+Utilidad.TotalTimePerEntity                 .14547     .00388     .10207     .36191        385    
+Reclama entrega.NVATimePerEntity            .13331     (Insuf)    .08724     .18027         60    
+Almacena.WaitTimePerEntity                  .01097     .00481     .00000     .26282        355    
+Tiempo Proceso                              21.888     1.8205     1.6590     77.901        355    
+Almacena.TotalTimePerEntity                 .07348     .00527     .03309     .32815        355    
+Asigna comprador.NVATimePerEntity           .01023     4.3772E-04 .00181     .01801        379    
+Proveedor ofertando.OtherTimePerEntity      17.086     1.6093     1.5996     55.662        360    
+Termina Entregar.WaitTimePerEntity          11.334     (Insuf)    6.6370     18.451         58    
+ICS.NVATimePerEntity                        .12308     (Insuf)    .08207     .17447         30    
+Asigna comprador.TotalTimePerEntity         .02310     .00349     .00181     .11761        379    
+Reclama entrega.WaitTimePerEntity           .01322     (Insuf)    .00000     .21219         60    
+Reclama entrega.TotalTimePerEntity          .14654     (Insuf)    .09475     .30519         60    
+Termina Entregar.TotalTimePerEntity         11.334     (Insuf)    6.6370     18.451         58    
+Recepcion.WaitTimePerEntity                 .01230     .00453     .00000     .20800        385    
+Recepcion.VATimePerEntity                   .11001     .00251     .06460     .18207        385    
+Firma pedido.NVATimePerEntity               .04826     8.9222E-04 .03130     .07248        360    
+Reclaman faltante.NVATimePerEntity          .11143     (Insuf)    .07159     .16961         25    
+Proveedor Termina Oferta.TotalTimePerEntit  .99475     (Insuf)    .49031     1.4213         14    
+Reclama ofertas.WaitTimePerEntity           .02386     (Insuf)    .00000     .21737         14    
+Trabajos proveedor.TotalTimePerEntity       3.0557     .15740     1.1580     5.3589        387    
+Seleccion y pedido.VATimePerEntity          .08991     .00132     .05313     .12158        360    
+ICS.WaitTimePerEntity                       .02043     (Insuf)    .00000     .22852         30    
+Recepcion.TotalTimePerEntity                .12231     .00511     .06460     .31070        385    
+Utilidad.WaitTimePerEntity                  .00721     .00304     .00000     .17611        385    
+Reclaman faltante.WaitTimePerEntity         .01260     (Insuf)    .00000     .21891         25    
+Reclama ofertas.TotalTimePerEntity          .15142     (Insuf)    .11135     .32646         14    
+ICS.TotalTimePerEntity                      .14351     (Insuf)    .08207     .38235         30    
+PIDE OFERTAS.TotalTimePerEntity             .32844     .03866     .13014     1.2336        379    
+Asigna comprador.WaitTimePerEntity          .01287     .00338     .00000     .11098        379    
+Proveedor Termina Oferta.WaitTimePerEntity  .99475     (Insuf)    .49031     1.4213         14    
+Firma pedido.WaitTimePerEntity              .00157     7.2979E-04 .00000     .06554        360    
+Firma pedido.TotalTimePerEntity             .04983     .00110     .03130     .12372        360    
+Completan.TotalTimePerEntity                8.1602     (Insuf)    3.0297     16.297         25    
+PIDE OFERTAS.VATimePerEntity                .22936     .00411     .13014     .30704        379    
+Completan.WaitTimePerEntity                 8.1602     (Insuf)    3.0297     16.297         25    
+Linea SC.VATime                             .65062     .00824     .48340     1.0216        355    
+Linea SC.NVATime                            .10267     .00976     .03835     .49585        355    
+Linea SC.WaitTime                           2.5876     .78119     .00000     31.640        355    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        355    
+Linea SC.OtherTime                          20.423     (Corr)     6.8081     59.471        355    
+Linea SC.TotalTime                          23.764     1.8582     7.4947     77.901        355    
+ICS.Queue.WaitingTime                       .02043     (Insuf)    .00000     .22852         30    
+Reclama entrega.Queue.WaitingTime           .01322     (Insuf)    .00000     .21219         60    
+Reclama ofertas.Queue.WaitingTime           .02386     (Insuf)    .00000     .21737         14    
+Firma pedido.Queue.WaitingTime              .00157     7.2979E-04 .00000     .06554        360    
+Recepcion.Queue.WaitingTime                 .01230     .00453     .00000     .20800        385    
+Asigna comprador.Queue.WaitingTime          .01287     .00338     .00000     .11098        379    
+PIDE OFERTAS.Queue.WaitingTime              .09909     .03802     .00000     1.0518        379    
+Almacena.Queue.WaitingTime                  .01097     .00481     .00000     .26282        355    
+Utilidad.Queue.WaitingTime                  .00721     .00304     .00000     .17611        385    
+Seleccion y pedido.Queue.WaitingTime        .01366     .00800     .00000     .51071        360    
+Reclaman faltante.Queue.WaitingTime         .01260     (Insuf)    .00000     .21891         25    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                24.480     2.4430     .00000     45.000     24.000    
+Calidad.NumberBusy                          .14583     .02911     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .14583     .02911     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .05822     .00781     .00000     1.0000     .00000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .05822     .00781     .00000     1.0000     .00000    
+Almacen.NumberBusy                          .17683     .03562     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .17683     .03562     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .37139     .05066     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .18570     .02533     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     .00168     (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00217     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         9.1510E-04 (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00155     (Insuf)    .00000     1.0000     .00000    
+Recepcion.Queue.NumberInQueue               .01297     (Insuf)    .00000     2.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01337     (Insuf)    .00000     10.000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .10289     (Insuf)    .00000     10.000     .00000    
+Almacena.Queue.NumberInQueue                .01067     (Insuf)    .00000     2.0000     .00000    
+Utilidad.Queue.NumberInQueue                .00761     (Insuf)    .00000     2.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .01347     (Insuf)    .00000     2.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       8.6294E-04 (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     25  Infinite
+Reclamaciones                                    60  Infinite
+REACS                                            30  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                25.000    
+Reclama ofertas Accum NVA Time              1.7858    
+Asigna comprador Accum Wait Time            4.8788    
+Trabajos proveedor Number In                390.00    
+ICS Number In                               30.000    
+Reclama entrega Accum NVA Time              7.9989    
+Proveedor Termina Oferta Number In          14.000    
+Proveedor ofertando Number Out              360.00    
+Seleccion y pedido Number Out               360.00    
+ICS Accum Wait Time                         .61278    
+Completan Number Out                        25.000    
+Firma pedido Number In                      360.00    
+Almacena Number In                          355.00    
+Proveedor Termina Oferta Accum Wait Time    13.926    
+Seleccion y pedido Number In                360.00    
+Utilidad Number Out                         385.00    
+ICS Accum NVA Time                          3.6924    
+Reclama entrega Number Out                  60.000    
+Reclaman faltante Number In                 25.000    
+Utilidad Number In                          385.00    
+Firma pedido Accum Wait Time                .56503    
+Utilidad Accum VA Time                      53.229    
+Seleccion y pedido Accum Wait Time          4.9160    
+Seleccion y pedido Accum VA Time            32.367    
+Reclama entrega Number In                   60.000    
+ICS Number Out                              30.000    
+Trabajos proveedor Accum Other Time         1182.5    
+Completan Number In                         25.000    
+Reclaman faltante Accum Wait Time           .31497    
+Utilidad Accum Wait Time                    2.7764    
+Almacena Accum Wait Time                    3.8944    
+Termina Entregar Number Out                 58.000    
+Almacena Accum VA Time                      22.189    
+PIDE OFERTAS Accum VA Time                  86.926    
+Reclama entrega Accum Wait Time             .79335    
+Asigna comprador Number Out                 379.00    
+Proveedor ofertando Accum Other Time        6151.0    
+Completan Accum Wait Time                   204.00    
+Termina Entregar Number In                  60.000    
+Firma pedido Accum NVA Time                 17.372    
+Recepcion Number In                         385.00    
+Almacena Number Out                         355.00    
+Firma pedido Number Out                     360.00    
+Reclama ofertas Number Out                  14.000    
+PIDE OFERTAS Number In                      379.00    
+Termina Entregar Accum Wait Time            657.37    
+Asigna comprador Accum NVA Time             3.8761    
+Proveedor ofertando Number In               379.00    
+Reclama ofertas Number In                   14.000    
+PIDE OFERTAS Accum Wait Time                37.553    
+Recepcion Accum Wait Time                   4.7349    
+Asigna comprador Number In                  379.00    
+Recepcion Number Out                        385.00    
+Recepcion Accum VA Time                     42.354    
+PIDE OFERTAS Number Out                     379.00    
+Proveedor Termina Oferta Number Out         14.000    
+Reclaman faltante Accum NVA Time            2.7857    
+Reclama ofertas Accum Wait Time             .33401    
+Trabajos proveedor Number Out               387.00    
+Linea SC.NumberIn                           379.00    
+Linea SC.NumberOut                          355.00    
+Calidad.NumberSeized                        385.00    
+Calidad.ScheduledUtilization                .14583    
+Jefetura.NumberSeized                       739.00    
+Jefetura.ScheduledUtilization               .05822    
+Almacen.NumberSeized                        740.00    
+Almacen.ScheduledUtilization                .17683    
+Comprador.NumberSeized                      868.00    
+Comprador.ScheduledUtilization              .18570    
+System.NumberOut                            355.00    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                  Summary for Replication 10 of 10
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+Replication ended at time      : 365.0 Days 
+Base Time Units: Days
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Reclaman faltante.TotalTimePerEntity        .12363     (Insuf)    .06528     .33400         48    
+Seleccion y pedido.TotalTimePerEntity       .11873     .01020     .05526     .88451        437    
+Trabajos proveedor.OtherTimePerEntity       3.1258     .20445     1.2907     5.6115        455    
+Almacena.VATimePerEntity                    .06365     .00135     .03255     .09090        424    
+PIDE OFERTAS.WaitTimePerEntity              .14049     (Corr)     .00000     1.1054        450    
+Seleccion y pedido.WaitTimePerEntity        .02875     .01057     .00000     .79484        437    
+Proveedor ofertando.TotalTimePerEntity      15.276     1.5108     2.1893     55.453        437    
+Utilidad.VATimePerEntity                    .13715     .00185     .10294     .18529        447    
+Reclama ofertas.NVATimePerEntity            .12864     (Insuf)    .06963     .17441         19    
+Utilidad.TotalTimePerEntity                 .14741     .00388     .10294     .29838        447    
+Reclama entrega.NVATimePerEntity            .12280     (Insuf)    .06572     .18161         68    
+Almacena.WaitTimePerEntity                  .02182     .00815     .00000     .30772        424    
+Tiempo Proceso                              20.945     1.6262     1.8732     81.184        424    
+Almacena.TotalTimePerEntity                 .08547     .00820     .03255     .37993        424    
+Asigna comprador.NVATimePerEntity           .01015     3.0308E-04 .00142     .01777        450    
+Proveedor ofertando.OtherTimePerEntity      15.276     1.5108     2.1893     55.453        437    
+Termina Entregar.WaitTimePerEntity          11.161     (Insuf)    6.0286     18.233         62    
+ICS.NVATimePerEntity                        .12451     (Insuf)    .08498     .17947         23    
+Asigna comprador.TotalTimePerEntity         .02314     .00221     .00227     .10366        450    
+Reclama entrega.WaitTimePerEntity           .03747     (Insuf)    .00000     .85048         68    
+Reclama entrega.TotalTimePerEntity          .16027     (Insuf)    .06572     .98464         68    
+Termina Entregar.TotalTimePerEntity         11.161     (Insuf)    6.0286     18.233         62    
+Recepcion.WaitTimePerEntity                 .01723     .00693     .00000     .27200        449    
+Recepcion.VATimePerEntity                   .11259     .00277     .06740     .18260        449    
+Firma pedido.NVATimePerEntity               .04811     9.8922E-04 .03164     .07189        436    
+Reclaman faltante.NVATimePerEntity          .11339     (Insuf)    .06528     .17871         48    
+Proveedor Termina Oferta.TotalTimePerEntit  1.2891     (Insuf)    .77848     1.8578         19    
+Reclama ofertas.WaitTimePerEntity           .00119     (Insuf)    .00000     .02263         19    
+Trabajos proveedor.TotalTimePerEntity       3.1258     .20445     1.2907     5.6115        455    
+Seleccion y pedido.VATimePerEntity          .08998     .00146     .05526     .12385        437    
+ICS.WaitTimePerEntity                       .04670     (Insuf)    .00000     .62678         23    
+Recepcion.TotalTimePerEntity                .12982     .00714     .06740     .35799        449    
+Utilidad.WaitTimePerEntity                  .01026     .00354     .00000     .18138        447    
+Reclaman faltante.WaitTimePerEntity         .01024     (Insuf)    .00000     .22952         48    
+Reclama ofertas.TotalTimePerEntity          .12983     (Insuf)    .06963     .17441         19    
+ICS.TotalTimePerEntity                      .17121     (Insuf)    .08498     .75035         23    
+PIDE OFERTAS.TotalTimePerEntity             .37194     (Corr)     .13244     1.3372        450    
+Asigna comprador.WaitTimePerEntity          .01299     .00227     .00000     .09137        450    
+Proveedor Termina Oferta.WaitTimePerEntity  1.2891     (Insuf)    .77848     1.8578         19    
+Firma pedido.WaitTimePerEntity              .00226     9.0545E-04 .00000     .06742        436    
+Firma pedido.TotalTimePerEntity             .05037     .00121     .03164     .11139        436    
+Completan.TotalTimePerEntity                8.4827     (Insuf)    2.5432     19.702         46    
+PIDE OFERTAS.VATimePerEntity                .23145     .00384     .13244     .30788        450    
+Completan.WaitTimePerEntity                 8.4827     (Insuf)    2.5432     19.702         46    
+Linea SC.VATime                             .64773     .00947     .45524     1.1820        424    
+Linea SC.NVATime                            .10022     .00856     .03576     .57699        424    
+Linea SC.WaitTime                           2.8200     .63003     .00000     35.905        424    
+Linea SC.TranTime                           .00000     .00000     .00000     .00000        424    
+Linea SC.OtherTime                          18.436     1.5171     6.4228     58.888        424    
+Linea SC.TotalTime                          22.004     1.6136     7.1891     81.184        424    
+ICS.Queue.WaitingTime                       .04670     (Insuf)    .00000     .62678         23    
+Reclama entrega.Queue.WaitingTime           .03747     (Insuf)    .00000     .85048         68    
+Reclama ofertas.Queue.WaitingTime           .00119     (Insuf)    .00000     .02263         19    
+Firma pedido.Queue.WaitingTime              .00225     9.0545E-04 .00000     .06742        437    
+Recepcion.Queue.WaitingTime                 .01723     .00693     .00000     .27200        449    
+Asigna comprador.Queue.WaitingTime          .01299     .00227     .00000     .09137        450    
+PIDE OFERTAS.Queue.WaitingTime              .14049     (Corr)     .00000     1.1054        450    
+Almacena.Queue.WaitingTime                  .02182     .00815     .00000     .30772        424    
+Utilidad.Queue.WaitingTime                  .01026     .00354     .00000     .18138        447    
+Seleccion y pedido.Queue.WaitingTime        .02875     .01057     .00000     .79484        437    
+Reclaman faltante.Queue.WaitingTime         .01024     (Insuf)    .00000     .22952         48    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Linea SC.WIP                                27.233     2.9800     .00000     49.000     26.000    
+Calidad.NumberBusy                          .16796     .02813     .00000     1.0000     .00000    
+Calidad.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Calidad.Utilization                         .16796     .02813     .00000     1.0000     .00000    
+Jefetura.NumberBusy                         .07003     .01069     .00000     1.0000     1.0000    
+Jefetura.NumberScheduled                    1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Jefetura.Utilization                        .07003     .01069     .00000     1.0000     1.0000    
+Almacen.NumberBusy                          .21244     .03598     .00000     1.0000     .00000    
+Almacen.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Almacen.Utilization                         .21244     .03598     .00000     1.0000     .00000    
+Comprador.NumberBusy                        .44541     .05112     .00000     2.0000     .00000    
+Comprador.NumberScheduled                   2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Comprador.Utilization                       .22270     .02556     .00000     1.0000     .00000    
+ICS.Queue.NumberInQueue                     .00294     (Insuf)    .00000     1.0000     .00000    
+Reclama entrega.Queue.NumberInQueue         .00698     (Insuf)    .00000     1.0000     .00000    
+Reclama ofertas.Queue.NumberInQueue         6.2010E-05 (Insuf)    .00000     1.0000     .00000    
+Firma pedido.Queue.NumberInQueue            .00270     (Insuf)    .00000     2.0000     .00000    
+Recepcion.Queue.NumberInQueue               .02120     (Insuf)    .00000     3.0000     .00000    
+Asigna comprador.Queue.NumberInQueue        .01602     .00418     .00000     11.000     .00000    
+PIDE OFERTAS.Queue.NumberInQueue            .17321     .08442     .00000     10.000     .00000    
+Almacena.Queue.NumberInQueue                .02535     (Insuf)    .00000     3.0000     .00000    
+Utilidad.Queue.NumberInQueue                .01256     (Insuf)    .00000     2.0000     .00000    
+Seleccion y pedido.Queue.NumberInQueue      .03442     (Insuf)    .00000     3.0000     .00000    
+Reclaman faltante.Queue.NumberInQueue       .00135     (Insuf)    .00000     1.0000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Reposiciones                                     48  Infinite
+Reclamaciones                                    68  Infinite
+REACS                                            23  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Reclaman faltante Number Out                48.000    
+Reclama ofertas Accum NVA Time              2.4440    
+Asigna comprador Accum Wait Time            5.8470    
+Trabajos proveedor Number In                459.00    
+ICS Number In                               23.000    
+Reclama entrega Accum NVA Time              8.3501    
+Proveedor Termina Oferta Number In          19.000    
+Proveedor ofertando Number Out              437.00    
+Seleccion y pedido Number Out               437.00    
+ICS Accum Wait Time                         1.0740    
+Completan Number Out                        46.000    
+Firma pedido Number In                      437.00    
+Almacena Number In                          424.00    
+Proveedor Termina Oferta Accum Wait Time    24.493    
+Seleccion y pedido Number In                437.00    
+Utilidad Number Out                         447.00    
+ICS Accum NVA Time                          2.8637    
+Reclama entrega Number Out                  68.000    
+Reclaman faltante Number In                 48.000    
+Utilidad Number In                          447.00    
+Firma pedido Accum Wait Time                .98407    
+Utilidad Accum VA Time                      61.304    
+Seleccion y pedido Accum Wait Time          12.563    
+Seleccion y pedido Accum VA Time            39.323    
+Reclama entrega Number In                   68.000    
+ICS Number Out                              23.000    
+Trabajos proveedor Accum Other Time         1422.2    
+Completan Number In                         48.000    
+Reclaman faltante Accum Wait Time           .49141    
+Utilidad Accum Wait Time                    4.5859    
+Almacena Accum Wait Time                    9.2514    
+Termina Entregar Number Out                 62.000    
+Almacena Accum VA Time                      26.987    
+PIDE OFERTAS Accum VA Time                  104.15    
+Reclama entrega Accum Wait Time             2.5481    
+Asigna comprador Number Out                 450.00    
+Proveedor ofertando Accum Other Time        6675.6    
+Completan Accum Wait Time                   390.20    
+Termina Entregar Number In                  68.000    
+Firma pedido Accum NVA Time                 20.975    
+Recepcion Number In                         449.00    
+Almacena Number Out                         424.00    
+Firma pedido Number Out                     436.00    
+Reclama ofertas Number Out                  19.000    
+PIDE OFERTAS Number In                      450.00    
+Termina Entregar Accum Wait Time            692.01    
+Asigna comprador Accum NVA Time             4.5681    
+Proveedor ofertando Number In               450.00    
+Reclama ofertas Number In                   19.000    
+PIDE OFERTAS Accum Wait Time                63.222    
+Recepcion Accum Wait Time                   7.7368    
+Asigna comprador Number In                  450.00    
+Recepcion Number Out                        449.00    
+Recepcion Accum VA Time                     50.553    
+PIDE OFERTAS Number Out                     450.00    
+Proveedor Termina Oferta Number Out         19.000    
+Reclaman faltante Accum NVA Time            5.4428    
+Reclama ofertas Accum Wait Time             .02263    
+Trabajos proveedor Number Out               455.00    
+Linea SC.NumberIn                           450.00    
+Linea SC.NumberOut                          424.00    
+Calidad.NumberSeized                        447.00    
+Calidad.ScheduledUtilization                .16796    
+Jefetura.NumberSeized                       887.00    
+Jefetura.ScheduledUtilization               .07003    
+Almacen.NumberSeized                        873.00    
+Almacen.ScheduledUtilization                .21244    
+Comprador.NumberSeized                      1045.0    
+Comprador.ScheduledUtilization              .22270    
+System.NumberOut                            424.00    
+
+
+                                      ARENA Simulation Results
+                                    lvillar56 - License: STUDENT
+
+                                 Output Summary for 10 Replications
+
+Project: Proceso de aprovisionamiento                                Run execution date : 6/28/2018
+Analyst: lvillar56@alumno.uned.es                                    Model revision date: 6/28/2018
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+Reclaman faltante Number Out                29.000     6.3801     20.000     48.000     10
+Reclama ofertas Accum NVA Time              2.1467     .31459     1.2624     2.6165     10
+Asigna comprador Accum Wait Time            5.0118     .57597     3.7317     6.1812     10
+Trabajos proveedor Number In                407.60     24.832     356.00     459.00     10
+ICS Number In                               29.900     3.9532     18.000     36.000     10
+Reclama entrega Accum NVA Time              8.7090     .88793     6.7858     10.402     10
+Proveedor Termina Oferta Number In          16.900     2.1969     11.000     20.000     10
+Proveedor ofertando Number Out              378.00     24.009     334.00     437.00     10
+Seleccion y pedido Number Out               377.80     24.094     334.00     437.00     10
+ICS Accum Wait Time                         .55798     .26563     .03545     1.0740     10
+Completan Number Out                        28.200     6.1974     20.000     46.000     10
+Firma pedido Number In                      377.80     24.094     334.00     437.00     10
+Almacena Number In                          370.90     23.044     329.00     424.00     10
+Proveedor Termina Oferta Accum Wait Time    19.418     3.4789     12.512     27.107     10
+Seleccion y pedido Number In                377.90     24.051     334.00     437.00     10
+Utilidad Number Out                         400.80     24.101     349.00     451.00     10
+ICS Accum NVA Time                          3.6487     .47760     2.2766     4.5886     10
+Reclama entrega Number Out                  68.800     7.1435     52.000     82.000     10
+Reclaman faltante Number In                 29.000     6.3801     20.000     48.000     10
+Utilidad Number In                          401.00     24.264     349.00     452.00     10
+Firma pedido Accum Wait Time                .57149     .13049     .36388     .98407     10
+Utilidad Accum VA Time                      55.137     3.3187     48.119     61.948     10
+Seleccion y pedido Accum Wait Time          7.4674     2.4470     3.3178     12.563     10
+Seleccion y pedido Accum VA Time            34.071     2.2114     29.899     39.323     10
+Reclama entrega Number In                   68.800     7.1435     52.000     82.000     10
+ICS Number Out                              29.900     3.9532     18.000     36.000     10
+Trabajos proveedor Accum Other Time         1215.9     100.97     1010.9     1422.2     10
+Completan Number In                         29.000     6.3801     20.000     48.000     10
+Reclaman faltante Accum Wait Time           .53014     .22700     .02156     1.0386     10
+Utilidad Accum Wait Time                    3.4640     1.0388     2.3044     7.0113     10
+Almacena Accum Wait Time                    6.1006     1.7156     3.8944     11.397     10
+Termina Entregar Number Out                 66.700     7.0494     50.000     81.000     10
+Almacena Accum VA Time                      23.243     1.5584     20.302     26.987     10
+PIDE OFERTAS Accum VA Time                  90.711     6.0761     78.686     104.15     10
+Reclama entrega Accum Wait Time             1.4423     .65018     .12583     2.9331     10
+Asigna comprador Number Out                 395.20     25.038     347.00     450.00     10
+Proveedor ofertando Accum Other Time        6047.5     295.62     5289.1     6675.6     10
+Completan Accum Wait Time                   231.94     50.073     153.35     390.20     10
+Termina Entregar Number In                  68.800     7.1435     52.000     82.000     10
+Firma pedido Accum NVA Time                 18.256     1.1822     15.808     20.975     10
+Recepcion Number In                         401.80     24.487     350.00     453.00     10
+Almacena Number Out                         370.90     23.044     329.00     424.00     10
+Firma pedido Number Out                     377.70     23.955     334.00     436.00     10
+Reclama ofertas Number Out                  16.900     2.1969     11.000     20.000     10
+PIDE OFERTAS Number In                      395.20     25.038     347.00     450.00     10
+Termina Entregar Accum Wait Time            769.04     97.656     541.78     960.50     10
+Asigna comprador Accum NVA Time             3.9896     .24815     3.4277     4.5681     10
+Proveedor ofertando Number In               395.10     25.076     347.00     450.00     10
+Reclama ofertas Number In                   17.000     2.2620     11.000     20.000     10
+PIDE OFERTAS Accum Wait Time                44.701     7.0253     31.141     63.222     10
+Recepcion Accum Wait Time                   6.2587     1.5578     4.0882     11.405     10
+Asigna comprador Number In                  395.20     25.038     347.00     450.00     10
+Recepcion Number Out                        401.80     24.487     350.00     453.00     10
+Recepcion Accum VA Time                     45.177     2.9652     39.224     51.739     10
+PIDE OFERTAS Number Out                     395.10     25.076     347.00     450.00     10
+Proveedor Termina Oferta Number Out         16.900     2.1969     11.000     20.000     10
+Reclaman faltante Accum NVA Time            3.1941     .74228     2.1795     5.4428     10
+Reclama ofertas Accum Wait Time             .35527     .21119     .00000     .89261     10
+Trabajos proveedor Number Out               403.90     25.191     351.00     455.00     10
+Linea SC.NumberIn                           395.20     25.038     347.00     450.00     10
+Linea SC.NumberOut                          370.90     23.044     329.00     424.00     10
+Calidad.NumberSeized                        401.00     24.264     349.00     452.00     10
+Calidad.ScheduledUtilization                .15108     .00910     .13183     .16976     10
+Jefetura.NumberSeized                       773.00     49.038     681.00     887.00     10
+Jefetura.ScheduledUtilization               .06095     .00390     .05323     .07003     10
+Almacen.NumberSeized                        772.70     47.393     681.00     873.00     10
+Almacen.ScheduledUtilization                .18746     .01230     .16309     .21244     10
+Comprador.NumberSeized                      917.70     57.286     806.00     1045.0     10
+Comprador.ScheduledUtilization              .19523     .01253     .17018     .22270     10
+System.NumberOut                            370.90     23.044     329.00     424.00     10
+
+Simulation run time: 0.32 minutes.
+Simulation run complete.

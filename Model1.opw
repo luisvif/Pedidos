@@ -1,0 +1,17 @@
+[RESOURCES]
+Comprador 1
+Comprador 2
+Comprador 1 y 2
+[VARIABLES]
+Emito reclamo 2.NumberOut
+Dispose 1.NumberOut
+Reclamo pedido.NumberOut
+Separate 1.NumberOut Dup
+Emito reclamo.NumberOut
+Emito reclamo.NumberIn
+Emito pedido.NumberIn
+Emito reclamo 2.NumberIn
+Reclamo pedido.NumberIn
+solicitud.NumberOut
+Separate 1.NumberOut Orig
+Emito pedido.NumberOut
